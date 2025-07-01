@@ -4,7 +4,7 @@
 /***/ 8070:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"tags":[{"label":"관용구","permalink":"/blog/tags/관용구","count":2}]}');
+module.exports = /*#__PURE__*/JSON.parse('{"tags":[{"label":"관용구","permalink":"/blog/tags/관용구","count":3}]}');
 
 /***/ })
 

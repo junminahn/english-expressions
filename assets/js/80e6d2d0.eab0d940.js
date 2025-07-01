@@ -4,7 +4,7 @@
 /***/ 2409:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/hit-the-nail-on-the-head","source":"@site/blog/2025-06-29-hit-the-nail-on-the-head/index.md","title":"Hit the nail on the head","description":"의미","date":"2025-06-29T16:00:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.02,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"hit-the-nail-on-the-head","title":"Hit the nail on the head","authors":[],"date":"2025-06-29T16:00","tags":["관용구"]},"unlisted":false,"nextItem":{"title":"Break the ice","permalink":"/blog/break-the-ice"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/hit-the-nail-on-the-head","source":"@site/blog/2025-06-29-hit-the-nail-on-the-head/index.md","title":"Hit the nail on the head","description":"의미","date":"2025-06-29T16:00:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.02,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"hit-the-nail-on-the-head","title":"Hit the nail on the head","authors":[],"date":"2025-06-29T16:00","tags":["관용구"]},"unlisted":false,"prevItem":{"title":"Spill the Beans","permalink":"/blog/spill-the-beans"},"nextItem":{"title":"Break the ice","permalink":"/blog/break-the-ice"}}');
 
 /***/ }),
 

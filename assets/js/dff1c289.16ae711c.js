@@ -1,13 +1,13 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[736],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[724],{
 
-/***/ 513:
+/***/ 3006:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/localeDropdown-f0d995e751e7656a1b0dbbc1134e49c2.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/docsVersionDropdown-35e13cbe46c9923327f30a76a90bff3b.png");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 6762:
+/***/ 9280:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -118,23 +118,23 @@ __webpack_require__.d(__webpack_exports__, {
   contentTitle: () => (/* binding */ contentTitle),
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_tutorial_extras_translate_your_site_md_e44_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_tutorial_extras_manage_docs_versions_md_dff_namespaceObject),
   toc: () => (/* binding */ toc)
 });
 
-;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-translate-your-site-md-e44.json
-const site_docs_tutorial_extras_translate_your_site_md_e44_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"tutorial-extras/translate-your-site","title":"Translate your site","description":"Let\'s translate docs/intro.md to French.","source":"@site/docs/tutorial-extras/translate-your-site.md","sourceDirName":"tutorial-extras","slug":"/tutorial-extras/translate-your-site","permalink":"/docs/tutorial-extras/translate-your-site","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md","tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"sidebar_position":2},"sidebar":"tutorialSidebar","previous":{"title":"Manage Docs Versions","permalink":"/docs/tutorial-extras/manage-docs-versions"}}');
+;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-manage-docs-versions-md-dff.json
+const site_docs_tutorial_extras_manage_docs_versions_md_dff_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"tutorial-extras/manage-docs-versions","title":"Manage Docs Versions","description":"Docusaurus can manage multiple versions of your docs.","source":"@site/docs/tutorial-extras/manage-docs-versions.md","sourceDirName":"tutorial-extras","slug":"/tutorial-extras/manage-docs-versions","permalink":"/docs/tutorial-extras/manage-docs-versions","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"tutorialSidebar","previous":{"title":"Tutorial - Extras","permalink":"/docs/category/tutorial---extras"},"next":{"title":"Translate your site","permalink":"/docs/tutorial-extras/translate-your-site"}}');
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(3420);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(5404);
-;// ./docs/tutorial-extras/translate-your-site.md
+;// ./docs/tutorial-extras/manage-docs-versions.md
 
 
 const frontMatter = {
-	sidebar_position: 2
+	sidebar_position: 1
 };
-const contentTitle = 'Translate your site';
+const contentTitle = 'Manage Docs Versions';
 
 const assets = {
 
@@ -143,110 +143,82 @@ const assets = {
 
 
 const toc = [{
-  "value": "Configure i18n",
-  "id": "configure-i18n",
+  "value": "Create a docs version",
+  "id": "create-a-docs-version",
   "level": 2
 }, {
-  "value": "Translate a doc",
-  "id": "translate-a-doc",
+  "value": "Add a Version Dropdown",
+  "id": "add-a-version-dropdown",
   "level": 2
 }, {
-  "value": "Start your localized site",
-  "id": "start-your-localized-site",
-  "level": 2
-}, {
-  "value": "Add a Locale Dropdown",
-  "id": "add-a-locale-dropdown",
-  "level": 2
-}, {
-  "value": "Build your localized site",
-  "id": "build-your-localized-site",
+  "value": "Update an existing version",
+  "id": "update-an-existing-version",
   "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
-    admonition: "admonition",
     code: "code",
     h1: "h1",
     h2: "h2",
     header: "header",
     img: "img",
+    li: "li",
     p: "p",
     pre: "pre",
+    strong: "strong",
+    ul: "ul",
     ...(0,lib/* useMDXComponents */.R)(),
     ...props.components
   };
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.header, {
       children: (0,jsx_runtime.jsx)(_components.h1, {
-        id: "translate-your-site",
-        children: "Translate your site"
+        id: "manage-docs-versions",
+        children: "Manage Docs Versions"
       })
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Let's translate ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "docs/intro.md"
-      }), " to French."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "Docusaurus can manage multiple versions of your docs."
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "configure-i18n",
-      children: "Configure i18n"
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Modify ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "docusaurus.config.js"
-      }), " to add support for the ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "fr"
-      }), " locale:"]
-    }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
-      children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-js",
-        metastring: "title=\"docusaurus.config.js\"",
-        children: "export default {\n  i18n: {\n    defaultLocale: 'en',\n    locales: ['en', 'fr'],\n  },\n};\n"
-      })
-    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "translate-a-doc",
-      children: "Translate a doc"
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Copy the ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "docs/intro.md"
-      }), " file to the ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "i18n/fr"
-      }), " folder:"]
+      id: "create-a-docs-version",
+      children: "Create a docs version"
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "Release a version 1.0 of your project:"
     }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
       children: (0,jsx_runtime.jsx)(_components.code, {
         className: "language-bash",
-        children: "mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/\n\ncp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md\n"
+        children: "npm run docusaurus docs:version 1.0\n"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Translate ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "i18n/fr/docusaurus-plugin-content-docs/current/intro.md"
-      }), " in French."]
-    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "start-your-localized-site",
-      children: "Start your localized site"
+      children: ["The ", (0,jsx_runtime.jsx)(_components.code, {
+        children: "docs"
+      }), " folder is copied into ", (0,jsx_runtime.jsx)(_components.code, {
+        children: "versioned_docs/version-1.0"
+      }), " and ", (0,jsx_runtime.jsx)(_components.code, {
+        children: "versions.json"
+      }), " is created."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Start your site on the French locale:"
-    }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
-      children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-bash",
-        children: "npm run start -- --locale fr\n"
-      })
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Your localized site is accessible at ", (0,jsx_runtime.jsx)(_components.a, {
-        href: "http://localhost:3000/fr/",
-        children: "http://localhost:3000/fr/"
-      }), " and the ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "Getting Started"
-      }), " page is translated."]
-    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
-      type: "caution",
-      children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "In development, you can only use one locale at a time."
-      })
+      children: "Your docs now have 2 versions:"
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: [(0,jsx_runtime.jsx)(_components.code, {
+          children: "1.0"
+        }), " at ", (0,jsx_runtime.jsx)(_components.code, {
+          children: "http://localhost:3000/docs/"
+        }), " for the version 1.0 docs"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: [(0,jsx_runtime.jsx)(_components.code, {
+          children: "current"
+        }), " at ", (0,jsx_runtime.jsx)(_components.code, {
+          children: "http://localhost:3000/docs/next/"
+        }), " for the ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: "upcoming, unreleased docs"
+        })]
+      }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "add-a-locale-dropdown",
-      children: "Add a Locale Dropdown"
+      id: "add-a-version-dropdown",
+      children: "Add a Version Dropdown"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "To navigate seamlessly across languages, add a locale dropdown."
+      children: "To navigate seamlessly across versions, add a version dropdown."
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: ["Modify the ", (0,jsx_runtime.jsx)(_components.code, {
         children: "docusaurus.config.js"
@@ -255,34 +227,36 @@ function _createMdxContent(props) {
       children: (0,jsx_runtime.jsx)(_components.code, {
         className: "language-js",
         metastring: "title=\"docusaurus.config.js\"",
-        children: "export default {\n  themeConfig: {\n    navbar: {\n      items: [\n        // highlight-start\n        {\n          type: 'localeDropdown',\n        },\n        // highlight-end\n      ],\n    },\n  },\n};\n"
+        children: "export default {\n  themeConfig: {\n    navbar: {\n      items: [\n        // highlight-start\n        {\n          type: 'docsVersionDropdown',\n        },\n        // highlight-end\n      ],\n    },\n  },\n};\n"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "The locale dropdown now appears in your navbar:"
+      children: "The docs version dropdown appears in your navbar:"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: (0,jsx_runtime.jsx)(_components.img, {
-        alt: "Locale Dropdown",
-        src: (__webpack_require__(513)/* ["default"] */ .A) + "",
+        alt: "Docs Version Dropdown",
+        src: (__webpack_require__(3006)/* ["default"] */ .A) + "",
         width: "370",
         height: "302"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "build-your-localized-site",
-      children: "Build your localized site"
+      id: "update-an-existing-version",
+      children: "Update an existing version"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Build your site for a specific locale:"
-    }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
-      children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-bash",
-        children: "npm run build -- --locale fr\n"
-      })
-    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Or build your site to include all the locales at once:"
-    }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
-      children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-bash",
-        children: "npm run build\n"
-      })
+      children: "It is possible to edit versioned docs in their respective folder:"
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: [(0,jsx_runtime.jsx)(_components.code, {
+          children: "versioned_docs/version-1.0/hello.md"
+        }), " updates ", (0,jsx_runtime.jsx)(_components.code, {
+          children: "http://localhost:3000/docs/hello"
+        })]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: [(0,jsx_runtime.jsx)(_components.code, {
+          children: "docs/hello.md"
+        }), " updates ", (0,jsx_runtime.jsx)(_components.code, {
+          children: "http://localhost:3000/docs/next/hello"
+        })]
+      }), "\n"]
     })]
   });
 }

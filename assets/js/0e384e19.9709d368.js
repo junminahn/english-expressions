@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[974],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[976],{
 
 /***/ 5404:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
@@ -96,7 +96,7 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 7334:
+/***/ 7116:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -108,23 +108,23 @@ __webpack_require__.d(__webpack_exports__, {
   contentTitle: () => (/* binding */ contentTitle),
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_tutorial_basics_create_a_page_md_5c8_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_intro_md_0e3_namespaceObject),
   toc: () => (/* binding */ toc)
 });
 
-;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-page-md-5c8.json
-const site_docs_tutorial_basics_create_a_page_md_5c8_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"tutorial-basics/create-a-page","title":"Create a Page","description":"Add Markdown or React files to src/pages to create a standalone page:","source":"@site/docs/tutorial-basics/create-a-page.md","sourceDirName":"tutorial-basics","slug":"/tutorial-basics/create-a-page","permalink":"/docs/tutorial-basics/create-a-page","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md","tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"tutorialSidebar","previous":{"title":"Tutorial - Basics","permalink":"/docs/category/tutorial---basics"},"next":{"title":"Create a Document","permalink":"/docs/tutorial-basics/create-a-document"}}');
+;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-intro-md-0e3.json
+const site_docs_intro_md_0e3_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"intro","title":"Tutorial Intro","description":"Let\'s discover Docusaurus in less than 5 minutes.","source":"@site/docs/intro.md","sourceDirName":".","slug":"/intro","permalink":"/docs/intro","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"tutorialSidebar","next":{"title":"Tutorial - Basics","permalink":"/docs/category/tutorial---basics"}}');
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(3420);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(5404);
-;// ./docs/tutorial-basics/create-a-page.md
+;// ./docs/intro.md
 
 
 const frontMatter = {
 	sidebar_position: 1
 };
-const contentTitle = 'Create a Page';
+const contentTitle = 'Tutorial Intro';
 
 const assets = {
 
@@ -133,12 +133,20 @@ const assets = {
 
 
 const toc = [{
-  "value": "Create your first React Page",
-  "id": "create-your-first-react-page",
+  "value": "Getting Started",
+  "id": "getting-started",
   "level": 2
 }, {
-  "value": "Create your first Markdown Page",
-  "id": "create-your-first-markdown-page",
+  "value": "What you&#39;ll need",
+  "id": "what-youll-need",
+  "level": 3
+}, {
+  "value": "Generate a new site",
+  "id": "generate-a-new-site",
+  "level": 2
+}, {
+  "value": "Start your site",
+  "id": "start-your-site",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -147,6 +155,7 @@ function _createMdxContent(props) {
     code: "code",
     h1: "h1",
     h2: "h2",
+    h3: "h3",
     header: "header",
     li: "li",
     p: "p",
@@ -159,73 +168,88 @@ function _createMdxContent(props) {
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.header, {
       children: (0,jsx_runtime.jsx)(_components.h1, {
-        id: "create-a-page",
-        children: "Create a Page"
+        id: "tutorial-intro",
+        children: "Tutorial Intro"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Add ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Markdown or React"
-      }), " files to ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "src/pages"
-      }), " to create a ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "standalone page"
-      }), ":"]
+      children: ["Let's discover ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "Docusaurus in less than 5 minutes"
+      }), "."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+      id: "getting-started",
+      children: "Getting Started"
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["Get started by ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "creating a new site"
+      }), "."]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["Or ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "try Docusaurus immediately"
+      }), " with ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: (0,jsx_runtime.jsx)(_components.a, {
+          href: "https://docusaurus.new",
+          children: "docusaurus.new"
+        })
+      }), "."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
+      id: "what-youll-need",
+      children: "What you'll need"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(_components.code, {
-          children: "src/pages/index.js"
-        }), " → ", (0,jsx_runtime.jsx)(_components.code, {
-          children: "localhost:3000/"
-        })]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(_components.code, {
-          children: "src/pages/foo.md"
-        }), " → ", (0,jsx_runtime.jsx)(_components.code, {
-          children: "localhost:3000/foo"
-        })]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(_components.code, {
-          children: "src/pages/foo/bar.js"
-        }), " → ", (0,jsx_runtime.jsx)(_components.code, {
-          children: "localhost:3000/foo/bar"
-        })]
+        children: [(0,jsx_runtime.jsx)(_components.a, {
+          href: "https://nodejs.org/en/download/",
+          children: "Node.js"
+        }), " version 18.0 or above:", "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
+            children: "When installing Node.js, you are recommended to check all checkboxes related to dependencies."
+          }), "\n"]
+        }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "create-your-first-react-page",
-      children: "Create your first React Page"
+      id: "generate-a-new-site",
+      children: "Generate a new site"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Create a file at ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "src/pages/my-react-page.js"
-      }), ":"]
+      children: ["Generate a new Docusaurus site using the ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "classic template"
+      }), "."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "The classic template will automatically be added to your project after you run the command:"
     }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
       children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-jsx",
-        metastring: "title=\"src/pages/my-react-page.js\"",
-        children: "import React from 'react';\nimport Layout from '@theme/Layout';\n\nexport default function MyReactPage() {\n  return (\n    <Layout>\n      <h1>My React page</h1>\n      <p>This is a React page</p>\n    </Layout>\n  );\n}\n"
+        className: "language-bash",
+        children: "npm init docusaurus@latest my-website classic\n"
       })
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["A new page is now available at ", (0,jsx_runtime.jsx)(_components.a, {
-        href: "http://localhost:3000/my-react-page",
-        children: "http://localhost:3000/my-react-page"
-      }), "."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor."
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "The command also installs all necessary dependencies you need to run Docusaurus."
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "create-your-first-markdown-page",
-      children: "Create your first Markdown Page"
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Create a file at ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "src/pages/my-markdown-page.md"
-      }), ":"]
+      id: "start-your-site",
+      children: "Start your site"
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: "Run the development server:"
     }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
       children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-mdx",
-        metastring: "title=\"src/pages/my-markdown-page.md\"",
-        children: "# My Markdown page\n\nThis is a Markdown page\n"
+        className: "language-bash",
+        children: "cd my-website\nnpm run start\n"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["A new page is now available at ", (0,jsx_runtime.jsx)(_components.a, {
-        href: "http://localhost:3000/my-markdown-page",
-        children: "http://localhost:3000/my-markdown-page"
+      children: ["The ", (0,jsx_runtime.jsx)(_components.code, {
+        children: "cd"
+      }), " command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there."]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["The ", (0,jsx_runtime.jsx)(_components.code, {
+        children: "npm run start"
+      }), " command builds your website locally and serves it through a development server, ready for you to view at ", (0,jsx_runtime.jsx)(_components.a, {
+        href: "http://localhost:3000/",
+        children: "http://localhost:3000/"
       }), "."]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["Open ", (0,jsx_runtime.jsx)(_components.code, {
+        children: "docs/intro.md"
+      }), " (this page) and edit some lines: the site ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "reloads automatically"
+      }), " and displays your changes."]
     })]
   });
 }

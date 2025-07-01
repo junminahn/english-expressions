@@ -1,7 +1,14 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[141],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[548],{
 
-/***/ 156:
+/***/ 3362:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/spill-the-beans","source":"@site/blog/2025-06-30-spill-the-beans/index.md","title":"Spill the Beans","description":"의미","date":"2025-06-30T22:00:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":0.95,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"spill-the-beans","title":"Spill the Beans","authors":[],"date":"2025-06-30T22:00","tags":["관용구"]},"unlisted":false,"nextItem":{"title":"Hit the nail on the head","permalink":"/blog/hit-the-nail-on-the-head"}}');
+
+/***/ }),
+
+/***/ 4639:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,19 +17,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_06_29_hit_the_nail_on_the_head_index_md_80e_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_06_30_spill_the_beans_index_md_d30_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_06_29_hit_the_nail_on_the_head_index_md_80e_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2409);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_06_30_spill_the_beans_index_md_d30_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3362);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'hit-the-nail-on-the-head',
-	title: 'Hit the nail on the head',
+	slug: 'spill-the-beans',
+	title: 'Spill the Beans',
 	authors: [],
-	date: '2025-06-29T16:00',
+	date: '2025-06-30T22:00',
 	tags: [
 		'관용구'
 	]
@@ -53,8 +60,8 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Hit the nail on the head"
-      }), "는 문제의 핵심을 정확히 짚다, 또는 정곡을 찌르다는 의미입니다."]
+        children: "Spill the beans"
+      }), "는 비밀을 누설하다, 비밀을 말하다를 뜻하는 표현입니다."]
     })]
   });
 }
@@ -72,13 +79,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ }),
-
-/***/ 2409:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/hit-the-nail-on-the-head","source":"@site/blog/2025-06-29-hit-the-nail-on-the-head/index.md","title":"Hit the nail on the head","description":"의미","date":"2025-06-29T16:00:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.02,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"hit-the-nail-on-the-head","title":"Hit the nail on the head","authors":[],"date":"2025-06-29T16:00","tags":["관용구"]},"unlisted":false,"nextItem":{"title":"Break the ice","permalink":"/blog/break-the-ice"}}');
 
 /***/ }),
 
