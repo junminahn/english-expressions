@@ -6529,6 +6529,8 @@ __webpack_require__.r(__webpack_exports__);
         },
         "blog": {
           "showReadingTime": true,
+          "blogSidebarTitle": "All posts",
+          "blogSidebarCount": "ALL",
           "feedOptions": {
             "type": [
               "rss",
