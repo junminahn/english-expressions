@@ -99,7 +99,7 @@ function MDXProvider(properties) {
 /***/ 5488:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/bite-the-bullet","source":"@site/blog/2025-07-02-bite-the-bullet/index.md","title":"Bite the Bullet","description":"의미","date":"2025-07-02T22:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.06,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"bite-the-bullet","title":"Bite the Bullet","authors":[],"date":"2025-07-02T22:45","tags":["관용구"]},"unlisted":false,"nextItem":{"title":"Spill the Beans","permalink":"/blog/spill-the-beans"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/bite-the-bullet","source":"@site/blog/2025-07-02-bite-the-bullet/index.md","title":"Bite the Bullet","description":"의미","date":"2025-07-02T22:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.06,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"bite-the-bullet","title":"Bite the Bullet","authors":[],"date":"2025-07-02T22:45","tags":["관용구"]},"unlisted":false,"prevItem":{"title":"Good Luck","permalink":"/blog/good-luck"},"nextItem":{"title":"Spill the Beans","permalink":"/blog/spill-the-beans"}}');
 
 /***/ }),
 

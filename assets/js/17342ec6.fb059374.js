@@ -1,7 +1,14 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[1475],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[8142],{
 
-/***/ 3384:
+/***/ 269:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/break-a-leg","source":"@site/blog/break-a-leg/index.md","title":"Break A Leg","description":"의미","date":"2025-07-04T18:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.81,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"break-a-leg","title":"Break A Leg","authors":[],"date":"2025-07-04T18:45","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"nextItem":{"title":"Good Luck","permalink":"/blog/good-luck"}}');
+
+/***/ }),
+
+/***/ 4178:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,21 +17,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_02_bite_the_bullet_index_md_f17_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_break_a_leg_index_md_173_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_2025_07_02_bite_the_bullet_index_md_f17_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5488);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_break_a_leg_index_md_173_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(269);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'bite-the-bullet',
-	title: 'Bite the Bullet',
+	slug: 'break-a-leg',
+	title: 'Break A Leg',
 	authors: [],
-	date: '2025-07-02T22:45',
+	date: '2025-07-04T18:45',
 	tags: [
-		'관용구'
+		'관용구',
+		'자주 쓰는 표현'
 	]
 };
 const contentTitle = undefined;
@@ -55,6 +63,7 @@ const toc = [{
 function _createMdxContent(props) {
   const _components = {
     admonition: "admonition",
+    em: "em",
     h3: "h3",
     li: "li",
     p: "p",
@@ -69,13 +78,13 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Bite the bullet"
-      }), "는 (하기 싫지만) 이를 악물고 참다, 힘든 일을 감수하다라는 뜻입니다."]
+        children: "Break A Leg"
+      }), "는 행운을 빌 때 사용하는 표현.."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "설명",
       children: "설명"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "이 표현은 피할 수 없는 고통스러운 상황이나 불편한 일을 마주했을 때, 그것을 용감하게 받아들이거나 감수해야 할 때 사용됩니다. 예를 들어, 어려운 결정을 내려야 하거나, 고통스러운 치료를 받아야 할 때 흔히 사용됩니다. 어원은 옛날 군인들이 마취제 없이 수술받을 때 총알을 물고 참았던 데서 유래했다고 합니다."
+      children: "이 표현은 주로 공연이나 시험 등 중요한 일을 앞둔 사람에게 성공을 기원하며 사용됩니다. 문자 그대로 '다리가 부러지다'라는 뜻이 아니라, 오히려 행운을 빌어주는 역설적인 표현입니다. 이는 공연 전에 불운을 가져온다고 믿었던 미신에서 유래했다는 설이 있습니다."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "예문",
       children: "예문"
@@ -84,65 +93,55 @@ function _createMdxContent(props) {
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "I didn't want to go to the dentist, but I had to bite the bullet."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(치과에 가고 싶지 않았지만 어쩔 수 없이 참았어.)"]
+          children: "You have a big presentation tomorrow, break a leg!"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(내일 큰 발표가 있는데, 행운을 빌어!)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 2",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Sometimes you just have to bite the bullet and do what needs to be done."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(가끔은 그냥 이를 악물고 해야 할 일을 해야 할 때가 있어.)"]
+          children: "Before she went on stage, the director told her, 'Break a leg!'"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그녀가 무대에 오르기 전에 감독은 그녀에게 '행운을 빌어!'라고 말했다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 3",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "He finally bit the bullet and told his boss the truth."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그는 결국 용기를 내서 상사에게 사실을 말했다.)"]
+          children: "I hope you ace your exam. Break a leg!"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(시험 잘 보길 바라. 행운을 빌어!)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 4",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "It’s expensive, but I’ll bite the bullet and pay for the repairs."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(비싸긴 하지만 어쩔 수 없이 수리비를 지불해야겠어.)"]
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
-      title: "Example 5",
-      type: "tip",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "She didn’t want to apologize, but she bit the bullet and did it."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그녀는 사과하고 싶지 않았지만 참고 결국 사과했어.)"]
+          children: "Don't be nervous. Just go out there and break a leg!"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(긴장하지 마. 그냥 나가서 잘 해봐!)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "유사한-영어-표현",
       children: "유사한 영어 표현"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Face the music"
-        })
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Suck it up"
-        })
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Grin and bear it"
-        })
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Take it on the chin"
-        })
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Get it over with"
-        })
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Good Luck"
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(직접적으로 행운을 빌어주는 표현.)"
+        })]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Best Of Luck"
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(매우 큰 행운을 빌어주는 표현.)"
+        })]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Go For It"
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(어떤 일을 시도하도록 격려하거나 지지하는 표현.)"
+        })]
       }), "\n"]
     })]
   });
@@ -256,13 +255,6 @@ function MDXProvider(properties) {
   )
 }
 
-
-/***/ }),
-
-/***/ 5488:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/bite-the-bullet","source":"@site/blog/2025-07-02-bite-the-bullet/index.md","title":"Bite the Bullet","description":"의미","date":"2025-07-02T22:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.06,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"bite-the-bullet","title":"Bite the Bullet","authors":[],"date":"2025-07-02T22:45","tags":["관용구"]},"unlisted":false,"nextItem":{"title":"Spill the Beans","permalink":"/blog/spill-the-beans"}}');
 
 /***/ })
 
