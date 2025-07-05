@@ -1,10 +1,10 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[4696],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[132],{
 
-/***/ 3833:
+/***/ 4414:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/die-down","source":"@site/blog/die-down/index.md","title":"Die Down","description":"의미","date":"2025-07-05T17:15:00.000Z","tags":[{"inline":true,"label":"구동사","permalink":"/blog/tags/구동사"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"die-down","title":"Die Down","authors":[],"date":"2025-07-05T17:15","tags":["구동사","자주 쓰는 표현"]},"unlisted":false,"nextItem":{"title":"Fade Away","permalink":"/blog/fade-away"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/meet-by-chance","source":"@site/blog/meet-by-chance/index.md","title":"Meet By Chance","description":"의미","date":"2025-07-05T18:20:00.000Z","tags":[{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.73,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"meet-by-chance","title":"Meet By Chance","authors":[],"date":"2025-07-05T18:20","tags":["자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Happen To Meet","permalink":"/blog/happen-to-meet"},"nextItem":{"title":"Die Down","permalink":"/blog/die-down"}}');
 
 /***/ }),
 
@@ -103,7 +103,7 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 8289:
+/***/ 8868:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -112,21 +112,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_die_down_index_md_97f_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_meet_by_chance_index_md_b06_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_die_down_index_md_97f_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3833);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_meet_by_chance_index_md_b06_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4414);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'die-down',
-	title: 'Die Down',
+	slug: 'meet-by-chance',
+	title: 'Meet By Chance',
 	authors: [],
-	date: '2025-07-05T17:15',
+	date: '2025-07-05T18:20',
 	tags: [
-		'구동사',
 		'자주 쓰는 표현'
 	]
 };
@@ -156,8 +155,8 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Die Down"
-      }), "은 점차 약해지거나 잠잠해지다."]
+        children: "Meet By Chance"
+      }), "는 우연히 만나게 되는 것을 의미합니다.."]
     })]
   });
 }

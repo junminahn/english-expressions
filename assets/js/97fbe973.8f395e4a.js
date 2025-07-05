@@ -177,7 +177,7 @@ function MDXContent(props = {}) {
 /***/ 3833:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/die-down","source":"@site/blog/die-down/index.md","title":"Die Down","description":"의미","date":"2025-07-05T17:15:00.000Z","tags":[{"inline":true,"label":"구동사","permalink":"/blog/tags/구동사"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"die-down","title":"Die Down","authors":[],"date":"2025-07-05T17:15","tags":["구동사","자주 쓰는 표현"]},"unlisted":false,"nextItem":{"title":"Fade Away","permalink":"/blog/fade-away"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/die-down","source":"@site/blog/die-down/index.md","title":"Die Down","description":"의미","date":"2025-07-05T17:15:00.000Z","tags":[{"inline":true,"label":"구동사","permalink":"/blog/tags/구동사"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"die-down","title":"Die Down","authors":[],"date":"2025-07-05T17:15","tags":["구동사","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Meet By Chance","permalink":"/blog/meet-by-chance"},"nextItem":{"title":"Fade Away","permalink":"/blog/fade-away"}}');
 
 /***/ }),
 
