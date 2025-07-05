@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	slug: 'run-of-the-mill',
-	title: 'Run-of-the-Mill',
+	title: 'Run of the Mill',
 	authors: [],
 	date: '2025-07-04T19:05',
 	tags: [
@@ -54,7 +54,7 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Run-of-the-Mill"
+        children: "Run of the Mill"
       }), "는 평범하고 특별할 것 없는, 흔하고 보통인."]
     })]
   });
@@ -174,7 +174,7 @@ function MDXProvider(properties) {
 /***/ 7352:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/run-of-the-mill","source":"@site/blog/run-of-the-mill/index.md","title":"Run-of-the-Mill","description":"의미","date":"2025-07-04T19:05:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.94,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"run-of-the-mill","title":"Run-of-the-Mill","authors":[],"date":"2025-07-04T19:05","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Common As Dirt","permalink":"/blog/common-as-dirt"},"nextItem":{"title":"Break A Leg","permalink":"/blog/break-a-leg"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/run-of-the-mill","source":"@site/blog/run-of-the-mill/index.md","title":"Run of the Mill","description":"의미","date":"2025-07-04T19:05:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.94,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"run-of-the-mill","title":"Run of the Mill","authors":[],"date":"2025-07-04T19:05","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Common As Dirt","permalink":"/blog/common-as-dirt"},"nextItem":{"title":"Break A Leg","permalink":"/blog/break-a-leg"}}');
 
 /***/ })
 

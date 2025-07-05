@@ -1,7 +1,14 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[4919],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[9442],{
 
-/***/ 3120:
+/***/ 269:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/break-a-leg","source":"@site/blog/break-a-leg/index.md","title":"Break A Leg","description":"의미","date":"2025-07-04T18:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.81,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"break-a-leg","title":"Break A Leg","authors":[],"date":"2025-07-04T18:45","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Run of the Mill","permalink":"/blog/run-of-the-mill"},"nextItem":{"title":"Good Luck","permalink":"/blog/good-luck"}}');
+
+/***/ }),
+
+/***/ 1366:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,19 +17,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_common_as_dirt_index_md_73d_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_break_a_leg_index_md_173_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_common_as_dirt_index_md_73d_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6124);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_break_a_leg_index_md_173_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(269);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'common-as-dirt',
-	title: 'Common As Dirt',
+	slug: 'break-a-leg',
+	title: 'Break A Leg',
 	authors: [],
-	date: '2025-07-04T19:05',
+	date: '2025-07-04T18:45',
 	tags: [
 		'관용구',
 		'자주 쓰는 표현'
@@ -54,8 +61,8 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Common As Dirt"
-      }), "는 매우 흔하거나 평범한 것을 비유적으로 이르는 말."]
+        children: "Break A Leg"
+      }), "는 행운을 빌 때 사용하는 표현.."]
     })]
   });
 }
@@ -168,13 +175,6 @@ function MDXProvider(properties) {
   )
 }
 
-
-/***/ }),
-
-/***/ 6124:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/common-as-dirt","source":"@site/blog/common-as-dirt/index.md","title":"Common As Dirt","description":"의미","date":"2025-07-04T19:05:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.97,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"common-as-dirt","title":"Common As Dirt","authors":[],"date":"2025-07-04T19:05","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"A Dime A Dozen","permalink":"/blog/a-dime-a-dozen"},"nextItem":{"title":"Run-of-the-Mill","permalink":"/blog/run-of-the-mill"}}');
 
 /***/ })
 

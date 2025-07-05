@@ -4,7 +4,7 @@
 /***/ 269:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/break-a-leg","source":"@site/blog/break-a-leg/index.md","title":"Break A Leg","description":"의미","date":"2025-07-04T18:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.81,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"break-a-leg","title":"Break A Leg","authors":[],"date":"2025-07-04T18:45","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Run-of-the-Mill","permalink":"/blog/run-of-the-mill"},"nextItem":{"title":"Good Luck","permalink":"/blog/good-luck"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/break-a-leg","source":"@site/blog/break-a-leg/index.md","title":"Break A Leg","description":"의미","date":"2025-07-04T18:45:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.81,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"break-a-leg","title":"Break A Leg","authors":[],"date":"2025-07-04T18:45","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Run of the Mill","permalink":"/blog/run-of-the-mill"},"nextItem":{"title":"Good Luck","permalink":"/blog/good-luck"}}');
 
 /***/ }),
 
