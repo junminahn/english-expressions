@@ -7494,6 +7494,13 @@ __webpack_require__.r(__webpack_exports__);
         "name": "google-site-verification",
         "content": "MSx83fXKYCr3CVpnlI78jWzK08KOpADjeADZDDCyq4c"
       }
+    },
+    {
+      "tagName": "meta",
+      "attributes": {
+        "name": "robots",
+        "content": "index, follow"
+      }
     }
   ],
   "plugins": [
