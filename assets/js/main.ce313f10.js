@@ -6806,6 +6806,13 @@ __webpack_require__.r(__webpack_exports__);
         "async": "true",
         "crossorigin": "anonymous"
       }
+    },
+    {
+      "tagName": "meta",
+      "attributes": {
+        "name": "algolia-site-verification",
+        "content": "CB954FCE6AA24094"
+      }
     }
   ],
   "plugins": [
