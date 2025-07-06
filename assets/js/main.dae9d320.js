@@ -7487,6 +7487,13 @@ __webpack_require__.r(__webpack_exports__);
         "name": "algolia-site-verification",
         "content": "CB954FCE6AA24094"
       }
+    },
+    {
+      "tagName": "meta",
+      "attributes": {
+        "name": "google-site-verification",
+        "content": "MSx83fXKYCr3CVpnlI78jWzK08KOpADjeADZDDCyq4c"
+      }
     }
   ],
   "plugins": [
