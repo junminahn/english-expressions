@@ -1,7 +1,14 @@
 "use strict";
 (self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[5259],{
 
-/***/ 839:
+/***/ 1266:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/bump-into","source":"@site/blog/bump-into/index.md","title":"Bump Into","description":"의미","date":"2025-07-05T18:20:00.000Z","tags":[{"inline":true,"label":"구동사","permalink":"/blog/tags/구동사"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.9,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"bump-into","title":"Bump Into","authors":[],"date":"2025-07-05T18:20","tags":["구동사","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Cross Paths","permalink":"/blog/cross-paths"},"nextItem":{"title":"Come Across","permalink":"/blog/come-across"}}');
+
+/***/ }),
+
+/***/ 3220:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -163,13 +170,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ }),
-
-/***/ 1266:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/bump-into","source":"@site/blog/bump-into/index.md","title":"Bump Into","description":"의미","date":"2025-07-05T18:20:00.000Z","tags":[{"inline":true,"label":"구동사","permalink":"/blog/tags/구동사"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.9,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"bump-into","title":"Bump Into","authors":[],"date":"2025-07-05T18:20","tags":["구동사","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Cross Paths","permalink":"/blog/cross-paths"},"nextItem":{"title":"Come Across","permalink":"/blog/come-across"}}');
 
 /***/ }),
 
