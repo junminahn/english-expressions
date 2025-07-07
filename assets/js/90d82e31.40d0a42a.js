@@ -99,7 +99,7 @@ function MDXProvider(properties) {
 /***/ 5451:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/cross-paths","source":"@site/blog/cross-paths/index.md","title":"Cross Paths","description":"의미","date":"2025-07-05T18:21:00.000Z","tags":[{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"},{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":0.95,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"cross-paths","title":"Cross Paths","authors":[],"date":"2025-07-05T18:21","tags":["자주 쓰는 표현","관용구"]},"unlisted":false,"nextItem":{"title":"Bump Into","permalink":"/blog/bump-into"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/cross-paths","source":"@site/blog/cross-paths/index.md","title":"Cross Paths","description":"의미","date":"2025-07-05T18:21:00.000Z","tags":[{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"},{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":0.95,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"cross-paths","title":"Cross Paths","authors":[],"date":"2025-07-05T18:21","tags":["자주 쓰는 표현","관용구"]},"unlisted":false,"prevItem":{"title":"Don\'t Judge a Book by Its Cover","permalink":"/blog/don-t-judge-a-book-by-its-cover"},"nextItem":{"title":"Bump Into","permalink":"/blog/bump-into"}}');
 
 /***/ }),
 

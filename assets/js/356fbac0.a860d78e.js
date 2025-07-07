@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7426],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7469],{
 
-/***/ 4911:
+/***/ 1913:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,22 +10,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_cross_paths_index_md_048_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_appearances_can_be_deceiving_index_md_356_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_cross_paths_index_md_048_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5451);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_appearances_can_be_deceiving_index_md_356_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7711);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'cross-paths',
-	title: 'Cross Paths',
+	slug: 'appearances-can-be-deceiving',
+	title: 'Appearances Can Be Deceiving',
 	authors: [],
-	date: '2025-07-05T18:21',
+	date: '2025-07-07T03:15',
 	tags: [
-		'자주 쓰는 표현',
-		'관용구'
+		'관용구',
+		'자주 쓰는 표현'
 	]
 };
 const contentTitle = undefined;
@@ -55,7 +55,6 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
     admonition: "admonition",
     em: "em",
     h3: "h3",
@@ -72,13 +71,13 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Cross Paths"
-      }), "는 누군가를 우연히 만나거나 마주친다는 의미입니다."]
+        children: "Appearances Can Be Deceiving"
+      }), "은 겉모습이 실제와 다를 수 있다는 의미입니다."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "설명",
       children: "설명"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "이 표현은 두 사람이나 사물이 물리적으로 또는 비유적으로 서로의 길을 가로지를 때 사용됩니다. 주로 우연한 만남이나 예상치 못한 접촉을 의미하며, 길을 가다 우연히 마주치거나, 삶의 여정에서 예상치 못하게 관계를 맺게 될 때 쓰입니다. 과거에 알았던 사람을 다시 만나거나, 새로운 사람을 알게 될 때도 사용될 수 있습니다."
+      children: "이 표현은 사람이나 사물의 외관이 실제 본질이나 내부 상태와는 다를 수 있다는 경고나 깨달음을 나타낼 때 사용됩니다. 겉으로 보이는 것이 항상 진실을 반영하는 것은 아니므로, 섣부른 판단을 경계하고 신중하게 살펴봐야 함을 강조합니다. 종종 눈에 보이는 것에만 의존하지 말고, 더 깊이 있는 본질을 파악하려는 태도가 필요함을 일깨워 줍니다."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "예문",
       children: "예문"
@@ -87,60 +86,58 @@ function _createMdxContent(props) {
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "I never thought I'd cross paths with my high school crush again."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(고등학교 때 짝사랑했던 사람과 다시 마주칠 줄은 몰랐어.)"]
+          children: "Don't judge a book by its cover; appearances can be deceiving."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(겉모습만 보고 판단하지 마세요; 겉모습은 속일 수 있습니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 2",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "We always cross paths at the coffee shop in the mornings."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(우리는 아침마다 커피숍에서 항상 마주쳐요.)"]
+          children: "The old house looked abandoned, but appearances can be deceiving; it was beautifully renovated inside."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그 낡은 집은 버려진 것처럼 보였지만, 겉모습은 속일 수 있습니다; 안은 아름답게 리모델링되어 있었습니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 3",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "After years, our careers finally crossed paths, and we ended up working together."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(몇 년 만에 우리 경력이 마침내 겹쳐서 함께 일하게 되었어요.)"]
+          children: "He seemed shy at first, but appearances can be deceiving. He's actually quite outgoing once you get to know him."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그는 처음에는 수줍어 보였지만, 겉모습은 속일 수 있습니다. 알고 보면 그는 꽤 외향적입니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 4",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "I hope our paths cross again someday."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(언젠가 다시 우리의 길이 겹치기를 바라요.)"]
+          children: "The product looks cheap, but don't be fooled, appearances can be deceiving; it's very durable."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그 제품은 싸구려처럼 보이지만, 속지 마세요. 겉모습은 속일 수 있습니다. 그것은 매우 튼튼합니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "유사한-영어-표현",
       children: "유사한 영어 표현"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-          href: "/blog/bump-into",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-            children: "Bump into"
-          })
-        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "('cross paths'와 유사하게 누군가를 예상치 않게 만나는 것을 의미합니다.)"
-        })]
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Don't Judge a Book by Its Cover"
+        })
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-          href: "/blog/meet-by-chance",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-            children: "Meet by chance"
-          })
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "All That Glitters Is Not Gold"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(우연한 만남을 직접적으로 표현하는 'cross paths'의 동의어입니다.)"
+          children: "(겉으로 화려해 보이는 것이 실제로는 가치 없을 수 있음을 의미합니다.)"
         })]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Encounter"
+          children: "Looks Can Be Deceiving"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(예상치 못한 만남이나 직면을 나타내는 일반적인 용어입니다.)"
+          children: "('Appearances Can Be Deceiving'와 거의 동일한 의미의 줄임말입니다.)"
+        })]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Still Waters Run Deep"
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(조용하고 겉으로 드러나지 않는 사람이 사실은 깊은 생각이나 감정을 가질 수 있음을 의미합니다.)"
         })]
       }), "\n"]
     })]
@@ -258,10 +255,10 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 5451:
+/***/ 7711:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/cross-paths","source":"@site/blog/cross-paths/index.md","title":"Cross Paths","description":"의미","date":"2025-07-05T18:21:00.000Z","tags":[{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"},{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":0.95,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"cross-paths","title":"Cross Paths","authors":[],"date":"2025-07-05T18:21","tags":["자주 쓰는 표현","관용구"]},"unlisted":false,"nextItem":{"title":"Bump Into","permalink":"/blog/bump-into"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/appearances-can-be-deceiving","source":"@site/blog/appearances-can-be-deceiving/index.md","title":"Appearances Can Be Deceiving","description":"의미","date":"2025-07-07T03:15:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1.23,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"appearances-can-be-deceiving","title":"Appearances Can Be Deceiving","authors":[],"date":"2025-07-07T03:15","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"It Is What Is Inside That Counts","permalink":"/blog/it-is-what-is-inside-that-counts"},"nextItem":{"title":"Don\'t Judge a Book by Its Cover","permalink":"/blog/don-t-judge-a-book-by-its-cover"}}');
 
 /***/ })
 

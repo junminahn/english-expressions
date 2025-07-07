@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[8130],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[5554],{
 
-/***/ 2048:
+/***/ 3931:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,21 +10,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_kick_the_bucket_index_md_d37_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_don_t_judge_a_book_by_its_cover_index_md_be2_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_kick_the_bucket_index_md_d37_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5109);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_don_t_judge_a_book_by_its_cover_index_md_be2_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5438);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'kick-the-bucket',
-	title: 'Kick the Bucket',
+	slug: 'don-t-judge-a-book-by-its-cover',
+	title: 'Don\'t Judge a Book by Its Cover',
 	authors: [],
-	date: '2025-07-05T17:14',
+	date: '2025-07-07T03:15',
 	tags: [
-		'관용구'
+		'관용구',
+		'자주 쓰는 표현'
 	]
 };
 const contentTitle = undefined;
@@ -54,7 +55,6 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
     admonition: "admonition",
     em: "em",
     h3: "h3",
@@ -71,13 +71,13 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "Kick the Bucket"
-      }), "은 비격식적으로 '죽다' 또는 '사망하다'를 의미하는 표현입니다."]
+        children: "Don't Judge a Book by Its Cover"
+      }), "는 외모나 겉모습만으로 어떤 사람이나 사물을 판단하지 말라는 의미입니다."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "설명",
       children: "설명"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "이 표현은 죽음을 비유적으로 나타내는 매우 오래된 관용구입니다. 그 유래에 대해서는 여러 설이 있는데, 도살된 동물을 거는 '버킷(고기를 매다는 들보)'에서 떨어지는 모습이나, 교수형 집행 시 발판인 양동이를 차는 모습에서 유래했다는 설 등이 있습니다. 비격식적이고 때로는 유머러스하게 들릴 수 있으나, 실제로는 죽음이라는 심각한 주제를 다루므로 사용에 주의가 필요합니다. 사람뿐 아니라 사물이 수명을 다해 고장 날 때도 비유적으로 사용될 수 있습니다."
+      children: "이 표현은 어떤 사람이나 사물의 진정한 가치나 특성을 외적인 모습만 보고 섣불리 판단해서는 안 된다는 교훈을 전달합니다. 책의 내용이 겉표지만으로는 알 수 없듯이, 사람이나 상황도 겉으로 보이는 것 이상을 가지고 있을 수 있음을 강조할 때 사용됩니다."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "예문",
       children: "예문"
@@ -86,63 +86,54 @@ function _createMdxContent(props) {
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "He said he wanted to travel the world before he kicked the bucket."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그는 죽기 전에 세계를 여행하고 싶다고 말했다.)"]
+          children: "She may seem shy, but don't judge a book by its cover; she's actually very outgoing once you get to know her."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그녀는 수줍어 보일지 모르지만, 겉만 보고 판단하지 마세요. 알고 보면 그녀는 매우 외향적입니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 2",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "My old car is about to kick the bucket; it keeps breaking down."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(내 낡은 차가 곧 수명을 다할 것 같아; 계속 고장 나.)"]
+          children: "The restaurant looks old from the outside, but don't judge a book by its cover. Their food is amazing!"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그 식당은 겉으로 보기에는 낡아 보이지만, 겉모습만으로 판단하지 마세요. 음식은 정말 맛있습니다!)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 3",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Many people fear the day they will eventually kick the bucket."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(많은 사람들이 결국 죽음을 맞이할 날을 두려워한다.)"]
+          children: "My grandmother always taught me, \"Don't judge a book by its cover.\""
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(우리 할머니는 항상 \"겉모습만 보고 판단하지 마라\"고 가르치셨습니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 4",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "The old dog was very sick and finally kicked the bucket last night."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그 늙은 개는 매우 아팠고, 결국 어젯밤에 죽었다.)"]
+          children: "He seemed a bit intimidating at first, but I quickly learned not to judge a book by its cover."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그는 처음에는 좀 위협적으로 보였지만, 곧 겉모습만으로 판단하지 않는 법을 배웠습니다.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "유사한-영어-표현",
       children: "유사한 영어 표현"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
-          href: "/blog/pass-away",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-            children: "Pass Away"
-          })
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Appearances Can Be Deceiving"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(‘kick the bucket’보다 훨씬 공손하고 부드러운 표현)"
+          children: "(겉모습이 사람을 속일 수 있다는 의미로, 'don't judge a book by its cover'와 유사한 교훈을 줍니다.)"
         })]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Breathe One's Last"
+          children: "There Is More Than Meets The Eye"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(좀 더 문학적이거나 격식 있는 표현으로, 임종하다는 의미)"
+          children: "(겉으로 보이는 것 이상의 무언가가 있다는 의미로, 사물의 깊이나 복잡성을 나타낼 때 사용됩니다.)"
         })]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Buy the Farm"
+          children: "Never Judge a Man Until You Have Walked a Mile in His Moccasins"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(주로 전투 중 사망하는 것을 의미하는 비격식 표현)"
-        })]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Croak"
-        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(매우 비격식적이며 때로는 경멸적으로 사용되는 표현)"
+          children: "(다른 사람의 입장이 되어보기 전에는 그를 판단하지 말라는 의미로, 공감의 중요성을 강조합니다.)"
         })]
       }), "\n"]
     })]
@@ -162,13 +153,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ }),
-
-/***/ 5109:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/kick-the-bucket","source":"@site/blog/kick-the-bucket/index.md","title":"Kick the Bucket","description":"의미","date":"2025-07-05T17:14:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"}],"readingTime":1.11,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"kick-the-bucket","title":"Kick the Bucket","authors":[],"date":"2025-07-05T17:14","tags":["관용구"]},"unlisted":false,"prevItem":{"title":"Bite The Dust","permalink":"/blog/bite-the-dust"},"nextItem":{"title":"Pass Away","permalink":"/blog/pass-away"}}');
 
 /***/ }),
 
@@ -264,6 +248,13 @@ function MDXProvider(properties) {
   )
 }
 
+
+/***/ }),
+
+/***/ 5438:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/don-t-judge-a-book-by-its-cover","source":"@site/blog/don-t-judge-a-book-by-its-cover/index.md","title":"Don\'t Judge a Book by Its Cover","description":"의미","date":"2025-07-07T03:15:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1.3,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"don-t-judge-a-book-by-its-cover","title":"Don\'t Judge a Book by Its Cover","authors":[],"date":"2025-07-07T03:15","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Appearances Can Be Deceiving","permalink":"/blog/appearances-can-be-deceiving"},"nextItem":{"title":"Cross Paths","permalink":"/blog/cross-paths"}}');
 
 /***/ })
 
