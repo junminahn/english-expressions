@@ -7209,7 +7209,7 @@ __webpack_require__.r(__webpack_exports__);
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/logo.png",
     "navbar": {
       "title": "English Expressions",
       "logo": {
