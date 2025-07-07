@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3098],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[1126],{
 
-/***/ 1656:
+/***/ 3206:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -13,23 +13,21 @@ __webpack_require__.d(__webpack_exports__, {
   contentTitle: () => (/* binding */ contentTitle),
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_tutorial_basics_create_a_blog_post_md_533_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_placeholder_md_5d9_namespaceObject),
   toc: () => (/* binding */ toc)
 });
 
-;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-blog-post-md-533.json
-const site_docs_tutorial_basics_create_a_blog_post_md_533_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"tutorial-basics/create-a-blog-post","title":"Create a Blog Post","description":"Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...","source":"@site/docs/tutorial-basics/create-a-blog-post.md","sourceDirName":"tutorial-basics","slug":"/tutorial-basics/create-a-blog-post","permalink":"/docs/tutorial-basics/create-a-blog-post","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":3,"frontMatter":{"sidebar_position":3},"sidebar":"tutorialSidebar","previous":{"title":"Create a Document","permalink":"/docs/tutorial-basics/create-a-document"},"next":{"title":"Markdown Features","permalink":"/docs/tutorial-basics/markdown-features"}}');
+;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-placeholder-md-5d9.json
+const site_docs_placeholder_md_5d9_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"placeholder","title":"placeholder","description":"","source":"@site/docs/placeholder.md","sourceDirName":".","slug":"/placeholder","permalink":"/docs/placeholder","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{},"sidebar":"defaultSidebar"}');
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(3420);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(5404);
-;// ./docs/tutorial-basics/create-a-blog-post.md
+;// ./docs/placeholder.md
 
 
-const frontMatter = {
-	sidebar_position: 3
-};
-const contentTitle = 'Create a Blog Post';
+const frontMatter = {};
+const contentTitle = 'placeholder';
 
 const assets = {
 
@@ -37,59 +35,19 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "Create your first Post",
-  "id": "create-your-first-post",
-  "level": 2
-}];
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
-    code: "code",
     h1: "h1",
-    h2: "h2",
     header: "header",
-    p: "p",
-    pre: "pre",
-    strong: "strong",
     ...(0,lib/* useMDXComponents */.R)(),
     ...props.components
   };
-  return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
-    children: [(0,jsx_runtime.jsx)(_components.header, {
-      children: (0,jsx_runtime.jsx)(_components.h1, {
-        id: "create-a-blog-post",
-        children: "Create a Blog Post"
-      })
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Docusaurus creates a ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "page for each blog post"
-      }), ", but also a ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "blog index page"
-      }), ", a ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "tag system"
-      }), ", an ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "RSS"
-      }), " feed..."]
-    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "create-your-first-post",
-      children: "Create your first Post"
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Create a file at ", (0,jsx_runtime.jsx)(_components.code, {
-        children: "blog/2021-02-28-greetings.md"
-      }), ":"]
-    }), "\n", (0,jsx_runtime.jsx)(_components.pre, {
-      children: (0,jsx_runtime.jsx)(_components.code, {
-        className: "language-md",
-        metastring: "title=\"blog/2021-02-28-greetings.md\"",
-        children: "---\nslug: greetings\ntitle: Greetings!\nauthors:\n  - name: Joel Marcey\n    title: Co-creator of Docusaurus 1\n    url: https://github.com/JoelMarcey\n    image_url: https://github.com/JoelMarcey.png\n  - name: Sébastien Lorber\n    title: Docusaurus maintainer\n    url: https://sebastienlorber.com\n    image_url: https://github.com/slorber.png\ntags: [greetings]\n---\n\nCongratulations, you have made your first post!\n\nFeel free to play around and edit this post as much as you like.\n"
-      })
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["A new blog post is now available at ", (0,jsx_runtime.jsx)(_components.a, {
-        href: "http://localhost:3000/blog/greetings",
-        children: "http://localhost:3000/blog/greetings"
-      }), "."]
-    })]
+  return (0,jsx_runtime.jsx)(_components.header, {
+    children: (0,jsx_runtime.jsx)(_components.h1, {
+      id: "placeholder",
+      children: "placeholder"
+    })
   });
 }
 function MDXContent(props = {}) {
