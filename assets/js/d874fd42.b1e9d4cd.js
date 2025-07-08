@@ -1,14 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7837],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3942],{
 
-/***/ 3785:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/throw-shade","source":"@site/blog/throw-shade copy/index.md","title":"Throw Shade","description":"의미","date":"2025-06-15T12:45:00.000Z","tags":[{"inline":true,"label":"속어","permalink":"/blog/tags/속어"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.86,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"throw-shade","title":"Throw Shade","authors":[],"date":"2025-06-15T12:45","tags":["속어","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Pull Someone\'s Leg","permalink":"/blog/pull-someone-s-leg"},"nextItem":{"title":"Make a Difference","permalink":"/blog/make-a-difference"}}');
-
-/***/ }),
-
-/***/ 4815:
+/***/ 3194:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17,10 +10,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_throw_shade_copy_index_md_283_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_throw_shade_index_md_d87_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_throw_shade_copy_index_md_283_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3785);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_throw_shade_index_md_d87_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6769);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
@@ -264,6 +257,13 @@ function MDXProvider(properties) {
   )
 }
 
+
+/***/ }),
+
+/***/ 6769:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/throw-shade","source":"@site/blog/throw-shade/index.md","title":"Throw Shade","description":"의미","date":"2025-06-15T12:45:00.000Z","tags":[{"inline":true,"label":"속어","permalink":"/blog/tags/속어"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":0.86,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"throw-shade","title":"Throw Shade","authors":[],"date":"2025-06-15T12:45","tags":["속어","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Pull Someone\'s Leg","permalink":"/blog/pull-someone-s-leg"},"nextItem":{"title":"Make a Difference","permalink":"/blog/make-a-difference"}}');
 
 /***/ })
 
