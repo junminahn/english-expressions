@@ -1,109 +1,7 @@
 "use strict";
 (self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[104],{
 
-/***/ 4562:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/all-that-glitters-is-not-gold","source":"@site/blog/all-that-glitters-is-not-gold/index.md","title":"All That Glitters Is Not Gold","description":"의미","date":"2025-07-07T03:16:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"문장","permalink":"/blog/tags/문장"}],"readingTime":1.18,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"all-that-glitters-is-not-gold","title":"All That Glitters Is Not Gold","authors":[],"date":"2025-07-07T03:16","tags":["관용구","문장"]},"unlisted":false,"prevItem":{"title":"Every Cloud Has a Silver Lining","permalink":"/blog/every-cloud-has-a-silver-lining"},"nextItem":{"title":"Beauty Is Only Skin Deep","permalink":"/blog/beauty-is-only-skin-deep"}}');
-
-/***/ }),
-
-/***/ 5404:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   R: () => (/* binding */ useMDXComponents),
-/* harmony export */   x: () => (/* binding */ MDXProvider)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6672);
-/**
- * @import {MDXComponents} from 'mdx/types.js'
- * @import {Component, ReactElement, ReactNode} from 'react'
- */
-
-/**
- * @callback MergeComponents
- *   Custom merge function.
- * @param {Readonly<MDXComponents>} currentComponents
- *   Current components from the context.
- * @returns {MDXComponents}
- *   Additional components.
- *
- * @typedef Props
- *   Configuration for `MDXProvider`.
- * @property {ReactNode | null | undefined} [children]
- *   Children (optional).
- * @property {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
- *   Additional components to use or a function that creates them (optional).
- * @property {boolean | null | undefined} [disableParentContext=false]
- *   Turn off outer component context (default: `false`).
- */
-
-
-
-/** @type {Readonly<MDXComponents>} */
-const emptyComponents = {}
-
-const MDXContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(emptyComponents)
-
-/**
- * Get current components from the MDX Context.
- *
- * @param {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
- *   Additional components to use or a function that creates them (optional).
- * @returns {MDXComponents}
- *   Current components.
- */
-function useMDXComponents(components) {
-  const contextComponents = react__WEBPACK_IMPORTED_MODULE_0__.useContext(MDXContext)
-
-  // Memoize to avoid unnecessary top-level context changes
-  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(
-    function () {
-      // Custom merge via a function prop
-      if (typeof components === 'function') {
-        return components(contextComponents)
-      }
-
-      return {...contextComponents, ...components}
-    },
-    [contextComponents, components]
-  )
-}
-
-/**
- * Provider for MDX context.
- *
- * @param {Readonly<Props>} properties
- *   Properties.
- * @returns {ReactElement}
- *   Element.
- * @satisfies {Component}
- */
-function MDXProvider(properties) {
-  /** @type {Readonly<MDXComponents>} */
-  let allComponents
-
-  if (properties.disableParentContext) {
-    allComponents =
-      typeof properties.components === 'function'
-        ? properties.components(emptyComponents)
-        : properties.components || emptyComponents
-  } else {
-    allComponents = useMDXComponents(properties.components)
-  }
-
-  return react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-    MDXContext.Provider,
-    {value: allComponents},
-    properties.children
-  )
-}
-
-
-/***/ }),
-
-/***/ 6350:
+/***/ 3969:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -254,6 +152,108 @@ function MDXContent(props = {}) {
   }) : _createMdxContent(props);
 }
 
+
+
+/***/ }),
+
+/***/ 4562:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/all-that-glitters-is-not-gold","source":"@site/blog/all-that-glitters-is-not-gold/index.md","title":"All That Glitters Is Not Gold","description":"의미","date":"2025-07-07T03:16:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"문장","permalink":"/blog/tags/문장"}],"readingTime":1.18,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"all-that-glitters-is-not-gold","title":"All That Glitters Is Not Gold","authors":[],"date":"2025-07-07T03:16","tags":["관용구","문장"]},"unlisted":false,"prevItem":{"title":"Every Cloud Has a Silver Lining","permalink":"/blog/every-cloud-has-a-silver-lining"},"nextItem":{"title":"Beauty Is Only Skin Deep","permalink":"/blog/beauty-is-only-skin-deep"}}');
+
+/***/ }),
+
+/***/ 5404:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   R: () => (/* binding */ useMDXComponents),
+/* harmony export */   x: () => (/* binding */ MDXProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6672);
+/**
+ * @import {MDXComponents} from 'mdx/types.js'
+ * @import {Component, ReactElement, ReactNode} from 'react'
+ */
+
+/**
+ * @callback MergeComponents
+ *   Custom merge function.
+ * @param {Readonly<MDXComponents>} currentComponents
+ *   Current components from the context.
+ * @returns {MDXComponents}
+ *   Additional components.
+ *
+ * @typedef Props
+ *   Configuration for `MDXProvider`.
+ * @property {ReactNode | null | undefined} [children]
+ *   Children (optional).
+ * @property {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @property {boolean | null | undefined} [disableParentContext=false]
+ *   Turn off outer component context (default: `false`).
+ */
+
+
+
+/** @type {Readonly<MDXComponents>} */
+const emptyComponents = {}
+
+const MDXContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(emptyComponents)
+
+/**
+ * Get current components from the MDX Context.
+ *
+ * @param {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @returns {MDXComponents}
+ *   Current components.
+ */
+function useMDXComponents(components) {
+  const contextComponents = react__WEBPACK_IMPORTED_MODULE_0__.useContext(MDXContext)
+
+  // Memoize to avoid unnecessary top-level context changes
+  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(
+    function () {
+      // Custom merge via a function prop
+      if (typeof components === 'function') {
+        return components(contextComponents)
+      }
+
+      return {...contextComponents, ...components}
+    },
+    [contextComponents, components]
+  )
+}
+
+/**
+ * Provider for MDX context.
+ *
+ * @param {Readonly<Props>} properties
+ *   Properties.
+ * @returns {ReactElement}
+ *   Element.
+ * @satisfies {Component}
+ */
+function MDXProvider(properties) {
+  /** @type {Readonly<MDXComponents>} */
+  let allComponents
+
+  if (properties.disableParentContext) {
+    allComponents =
+      typeof properties.components === 'function'
+        ? properties.components(emptyComponents)
+        : properties.components || emptyComponents
+  } else {
+    allComponents = useMDXComponents(properties.components)
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement(
+    MDXContext.Provider,
+    {value: allComponents},
+    properties.children
+  )
+}
 
 
 /***/ })
