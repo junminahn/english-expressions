@@ -1,12 +1,5 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3540],{
-
-/***/ 4562:
-/***/ ((module) => {
-
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/all-that-glitters-is-not-gold","source":"@site/blog/all-that-glitters-is-not-gold/index.md","title":"All That Glitters Is Not Gold","description":"의미","date":"2025-07-07T03:16:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"문장","permalink":"/blog/tags/문장"}],"readingTime":1.18,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"all-that-glitters-is-not-gold","title":"All That Glitters Is Not Gold","authors":[],"date":"2025-07-07T03:16","tags":["관용구","문장"]},"unlisted":false,"nextItem":{"title":"Beauty Is Only Skin Deep","permalink":"/blog/beauty-is-only-skin-deep"}}');
-
-/***/ }),
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[1457],{
 
 /***/ 5404:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
@@ -103,7 +96,14 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 8738:
+/***/ 7328:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/see-the-glass-half-full","source":"@site/blog/see-the-glass-half-full/index.md","title":"See the Glass Half Full","description":"의미","date":"2025-07-08T04:31:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1.22,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"see-the-glass-half-full","title":"See the Glass Half Full","authors":[],"date":"2025-07-08T04:31","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Look on the Bright Side","permalink":"/blog/look-on-the-bright-side"},"nextItem":{"title":"Every Cloud Has A Silver Lining","permalink":"/blog/silver-lining"}}');
+
+/***/ }),
+
+/***/ 7470:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -112,22 +112,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_all_that_glitters_is_not_gold_index_md_f66_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_see_the_glass_half_full_index_md_071_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_all_that_glitters_is_not_gold_index_md_f66_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4562);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_see_the_glass_half_full_index_md_071_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7328);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'all-that-glitters-is-not-gold',
-	title: 'All That Glitters Is Not Gold',
+	slug: 'see-the-glass-half-full',
+	title: 'See the Glass Half Full',
 	authors: [],
-	date: '2025-07-07T03:16',
+	date: '2025-07-08T04:31',
 	tags: [
 		'관용구',
-		'문장'
+		'자주 쓰는 표현'
 	]
 };
 const contentTitle = undefined;
@@ -156,8 +156,8 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "All That Glitters Is Not Gold"
-      }), "는 겉으로 보기에 화려하거나 좋아 보이는 모든 것이 실제로는 가치 있거나 좋은 것은 아니라는 의미입니다."]
+        children: "See the Glass Half Full"
+      }), "은 어떤 상황을 긍정적이고 낙관적인 관점에서 바라보는 것을 의미입니다."]
     })]
   });
 }

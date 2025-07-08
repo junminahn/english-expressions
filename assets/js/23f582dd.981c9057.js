@@ -1,10 +1,10 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[104],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[4659],{
 
-/***/ 4562:
+/***/ 511:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/all-that-glitters-is-not-gold","source":"@site/blog/all-that-glitters-is-not-gold/index.md","title":"All That Glitters Is Not Gold","description":"의미","date":"2025-07-07T03:16:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"문장","permalink":"/blog/tags/문장"}],"readingTime":1.18,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"all-that-glitters-is-not-gold","title":"All That Glitters Is Not Gold","authors":[],"date":"2025-07-07T03:16","tags":["관용구","문장"]},"unlisted":false,"nextItem":{"title":"Beauty Is Only Skin Deep","permalink":"/blog/beauty-is-only-skin-deep"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/look-on-the-bright-side","source":"@site/blog/look-on-the-bright-side/index.md","title":"Look on the Bright Side","description":"의미","date":"2025-07-08T04:31:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"look-on-the-bright-side","title":"Look on the Bright Side","authors":[],"date":"2025-07-08T04:31","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"nextItem":{"title":"See the Glass Half Full","permalink":"/blog/see-the-glass-half-full"}}');
 
 /***/ }),
 
@@ -103,7 +103,7 @@ function MDXProvider(properties) {
 
 /***/ }),
 
-/***/ 6350:
+/***/ 7258:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -112,22 +112,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
 /* harmony export */   frontMatter: () => (/* binding */ frontMatter),
-/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_all_that_glitters_is_not_gold_index_md_f66_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_look_on_the_bright_side_index_md_23f_json__WEBPACK_IMPORTED_MODULE_0__),
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
-/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_all_that_glitters_is_not_gold_index_md_f66_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4562);
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_look_on_the_bright_side_index_md_23f_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(511);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3420);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5404);
 
 
 const frontMatter = {
-	slug: 'all-that-glitters-is-not-gold',
-	title: 'All That Glitters Is Not Gold',
+	slug: 'look-on-the-bright-side',
+	title: 'Look on the Bright Side',
 	authors: [],
-	date: '2025-07-07T03:16',
+	date: '2025-07-08T04:31',
 	tags: [
 		'관용구',
-		'문장'
+		'자주 쓰는 표현'
 	]
 };
 const contentTitle = undefined;
@@ -173,13 +173,13 @@ function _createMdxContent(props) {
       children: "의미"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
-        children: "All That Glitters Is Not Gold"
-      }), "는 겉으로 보기에 화려하거나 좋아 보이는 모든 것이 실제로는 가치 있거나 좋은 것은 아니라는 의미입니다."]
+        children: "Look on the Bright Side"
+      }), "는 어려운 상황에서도 긍정적인 면을 보려고 노력하라는 의미입니다."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "설명",
       children: "설명"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
-      children: "이 표현은 셰익스피어의 희곡 '베니스의 상인'에서 유래한 것으로 알려져 있으며, 겉모습만으로 어떤 것이나 사람의 가치를 판단해서는 안 된다는 교훈을 전달합니다. 즉, 외관에 현혹되지 않고 본질을 파악하는 것이 중요함을 강조합니다. 특히 물건을 구매하거나 사람을 평가할 때 신중해야 함을 일깨워주는 표현입니다."
+      children: "이 표현은 부정적이거나 어려운 상황에 처했을 때, 그럼에도 불구하고 좋은 점이나 희망적인 측면을 찾으려고 노력하는 태도를 강조합니다. 주로 누군가를 위로하거나 격려할 때 사용되며, 비관적인 생각 대신 낙관적인 시각을 가지도록 권유하는 말입니다."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "예문",
       children: "예문"
@@ -188,32 +188,32 @@ function _createMdxContent(props) {
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "I thought that new car was perfect, but it's constantly breaking down. All that glitters is not gold."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(새 차가 완벽할 줄 알았는데 계속 고장 나네. 겉만 번지르르하다고 다 좋은 건 아니야.)"]
+          children: "Things might be tough right now, but try to look on the bright side."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(지금은 힘들 수도 있지만, 긍정적인 면을 보려고 노력해 봐.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 2",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Don't be fooled by their luxurious lifestyle; remember, all that glitters is not gold."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그들의 호화로운 생활 방식에 속지 마세요. 겉만 화려하다고 다 좋은 건 아니라는 걸 기억하세요.)"]
+          children: "Even though we lost the game, we should look on the bright side – we played well as a team."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(비록 경기에서 졌지만, 긍정적인 면을 봐야 해 – 우리는 팀으로서 잘 싸웠어.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 3",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "He seemed like the ideal candidate, but his past record shows otherwise. All that glitters is not gold."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그가 이상적인 후보처럼 보였지만, 그의 과거 기록은 그렇지 않다는 것을 보여줍니다. 겉보기에 번지르르하다고 다 좋은 건 아니죠.)"]
+          children: "It's easy to feel down, but remember to look on the bright side; at least you have your health."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(우울하기 쉽겠지만, 긍정적인 면을 기억해; 적어도 건강하잖아.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
       title: "Example 4",
       type: "tip",
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Many people dream of fame, but sometimes all that glitters is not gold."
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(많은 사람들이 명성을 꿈꾸지만, 때로는 겉만 화려하다고 다 좋은 것은 아닙니다.)"]
+          children: "Instead of complaining, let's look on the bright side and find a solution."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(불평하기보다, 긍정적인 면을 보고 해결책을 찾아보자.)"]
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
       id: "유사한-영어-표현",
@@ -221,21 +221,21 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Don't Judge a Book by Its Cover"
+          children: "Every Cloud Has a Silver Lining"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(겉모습으로 판단하지 말라는 의미)"
+          children: "(모든 나쁜 상황에도 좋은 면이 있다는 의미)"
         })]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Appearances Can Be Deceiving"
+          children: "See the Glass Half Full"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(겉모습은 속일 수 있다는 의미)"
+          children: "(낙관적인 태도를 가지라는 의미)"
         })]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
         children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
-          children: "Beauty Is Only Skin Deep"
+          children: "Keep Your Chin Up"
         }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
-          children: "(진정한 가치는 내면에 있다는 의미)"
+          children: "(어려운 상황에서 용기를 잃지 말라는 격려)"
         })]
       }), "\n"]
     })]
