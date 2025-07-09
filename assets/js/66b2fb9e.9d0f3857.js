@@ -4,7 +4,7 @@
 /***/ 511:
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/look-on-the-bright-side","source":"@site/blog/look-on-the-bright-side/index.md","title":"Look on the Bright Side","description":"의미","date":"2025-07-08T04:31:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"look-on-the-bright-side","title":"Look on the Bright Side","authors":[],"date":"2025-07-08T04:31","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"nextItem":{"title":"See the Glass Half Full","permalink":"/blog/see-the-glass-half-full"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/look-on-the-bright-side","source":"@site/blog/look-on-the-bright-side/index.md","title":"Look on the Bright Side","description":"의미","date":"2025-07-08T04:31:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"자주 쓰는 표현","permalink":"/blog/tags/자주-쓰는-표현"}],"readingTime":1,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"look-on-the-bright-side","title":"Look on the Bright Side","authors":[],"date":"2025-07-08T04:31","tags":["관용구","자주 쓰는 표현"]},"unlisted":false,"prevItem":{"title":"Wear Many Hats","permalink":"/blog/wear-many-hats"},"nextItem":{"title":"See the Glass Half Full","permalink":"/blog/see-the-glass-half-full"}}');
 
 /***/ }),
 
