@@ -1,125 +1,15 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7960],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[8979],{
 
-/***/ 5404:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   R: () => (/* binding */ useMDXComponents),
-/* harmony export */   x: () => (/* binding */ MDXProvider)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6672);
-/**
- * @import {MDXComponents} from 'mdx/types.js'
- * @import {Component, ReactElement, ReactNode} from 'react'
- */
-
-/**
- * @callback MergeComponents
- *   Custom merge function.
- * @param {Readonly<MDXComponents>} currentComponents
- *   Current components from the context.
- * @returns {MDXComponents}
- *   Additional components.
- *
- * @typedef Props
- *   Configuration for `MDXProvider`.
- * @property {ReactNode | null | undefined} [children]
- *   Children (optional).
- * @property {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
- *   Additional components to use or a function that creates them (optional).
- * @property {boolean | null | undefined} [disableParentContext=false]
- *   Turn off outer component context (default: `false`).
- */
-
-
-
-/** @type {Readonly<MDXComponents>} */
-const emptyComponents = {}
-
-const MDXContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(emptyComponents)
-
-/**
- * Get current components from the MDX Context.
- *
- * @param {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
- *   Additional components to use or a function that creates them (optional).
- * @returns {MDXComponents}
- *   Current components.
- */
-function useMDXComponents(components) {
-  const contextComponents = react__WEBPACK_IMPORTED_MODULE_0__.useContext(MDXContext)
-
-  // Memoize to avoid unnecessary top-level context changes
-  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(
-    function () {
-      // Custom merge via a function prop
-      if (typeof components === 'function') {
-        return components(contextComponents)
-      }
-
-      return {...contextComponents, ...components}
-    },
-    [contextComponents, components]
-  )
-}
-
-/**
- * Provider for MDX context.
- *
- * @param {Readonly<Props>} properties
- *   Properties.
- * @returns {ReactElement}
- *   Element.
- * @satisfies {Component}
- */
-function MDXProvider(properties) {
-  /** @type {Readonly<MDXComponents>} */
-  let allComponents
-
-  if (properties.disableParentContext) {
-    allComponents =
-      typeof properties.components === 'function'
-        ? properties.components(emptyComponents)
-        : properties.components || emptyComponents
-  } else {
-    allComponents = useMDXComponents(properties.components)
-  }
-
-  return react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-    MDXContext.Provider,
-    {value: allComponents},
-    properties.children
-  )
-}
-
-
-/***/ }),
-
-/***/ 5997:
+/***/ 505:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  assets: () => (/* binding */ assets),
-  contentTitle: () => (/* binding */ contentTitle),
-  "default": () => (/* binding */ MDXContent),
-  frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_quiz_mdx_d28_namespaceObject),
-  toc: () => (/* binding */ toc)
+  a: () => (/* binding */ quizData)
 });
 
-;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-quiz-mdx-d28.json
-const site_docs_quiz_mdx_d28_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"quiz","title":"English Expressions Quiz","description":"","source":"@site/docs/quiz.mdx","sourceDirName":".","slug":"/quiz","permalink":"/play/quiz","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"sidebar_position":2},"sidebar":"playSidebar"}');
-// EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(3420);
-// EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
-var lib = __webpack_require__(5404);
-// EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
-var react = __webpack_require__(6672);
 ;// ./blog/how-are-you-doing/content.json
 const content_namespaceObject = /*#__PURE__*/JSON.parse('{"slug":"how-are-you-doing","title":"How Are You Doing?","koreanPronunciation":"하우 아 유 두잉?","tags":["자주 쓰는 표현"],"meaning":"상대방의 안부를 묻는 의미입니다","description":"이 표현은 일상적인 대화에서 누군가의 상태나 기분을 묻는 가장 기본적이고 자연스러운 인사말 중 하나입니다. 공식적인 상황, 친구와의 대화, 전화 통화 등 다양한 상황에서 두루 쓰입니다. ‘How are you?’와 비슷하지만 좀 더 친근하고 편안한 느낌을 줍니다.","examples":[{"en":"Hi! How are you doing today?","ko":"안녕! 오늘 어떻게 지내?"},{"en":"How are you doing after your surgery?","ko":"수술 후에 어떻게 지내?"},{"en":"Hey, how are you doing? Long time no see!","ko":"야, 잘 지내? 오랜만이야!"},{"en":"How are you doing with your new job?","ko":"새 직장은 어때?"},{"en":"I called to check how you’re doing.","ko":"네 안부가 궁금해서 전화했어."}],"related":[{"slug":"how’s-it-going?","title":"How’s it going?","note":"더 비격식적이고 캐주얼한 안부 표현"},{"slug":"how-are-you?","title":"How are you?","note":"더 일반적이고 격식 있는 안부 표현"},{"slug":"what’s-up?","title":"What’s up?","note":"매우 비격식적인 슬랭 표현"},{"slug":"how-have-you-been?","title":"How have you been?","note":"오랜만에 만났을 때 그동안의 안부를 묻는 표현"},{"slug":"how’s-everything?","title":"How’s everything?","note":"전반적인 상황이나 삶에 대해 묻는 표현"}],"date":"2025-06-11T13:45"}');
 ;// ./blog/binge-watch/content.json
@@ -220,42 +110,71 @@ const a_dime_a_dozen_content_namespaceObject = /*#__PURE__*/JSON.parse('{"slug":
 const break_the_ice_content_namespaceObject = /*#__PURE__*/JSON.parse('{"slug":"break-the-ice","title":"Break the ice","koreanPronunciation":"브레이크 더 아이스","tags":["관용구"],"meaning":"어색하거나 긴장된 분위기를 깨고 편안하게 만드는 것을 의미합니다","description":"이 표현은 처음 만난 사람들과 대화를 시작하거나, 조용하고 어색한 상황에서 분위기를 부드럽게 만들 때 사용됩니다. 대개 처음 만나는 자리에서 자연스럽게 말문을 트는 데 사용됩니다.","examples":[{"en":"At the party, John told a funny story to break the ice.","ko":"파티에서 John은 어색한 분위기를 깨기 위해 재미있는 이야기를 했다."},{"en":"The teacher played a game to break the ice on the first day of class.","ko":"선생님은 첫 수업 날에 어색한 분위기를 깨기 위해 게임을 했다."},{"en":"A good joke can help break the ice when meeting new people.","ko":"새로운 사람을 만날 때 좋은 농담은 어색함을 풀어줄 수 있다."},{"en":"She brought snacks to the meeting to break the ice.","ko":"그녀는 회의에서 어색함을 풀기 위해 간식을 가져왔다."},{"en":"Asking about someone’s hobbies is a great way to break the ice.","ko":"누군가의 취미를 묻는 것은 어색함을 깨는 좋은 방법이다."}],"related":[{"slug":"get-the-ball-rolling","title":"Get the ball rolling"},{"slug":"start-the-conversation","title":"Start the conversation"},{"slug":"warm-up-the-atmosphere","title":"Warm up the atmosphere"},{"slug":"ease-the-tension","title":"Ease the tension"},{"slug":"make-the-first-move","title":"Make the first move"}],"date":"2025-06-28T10:00"}');
 ;// ./blog/you-never-know/content.json
 const you_never_know_content_namespaceObject = /*#__PURE__*/JSON.parse('{"slug":"you-never-know","title":"You Never Know","koreanPronunciation":"유 네버 노우","tags":["문장","자주 쓰는 표현"],"meaning":"무슨 일이 일어날지 알 수 없고, 결과를 예측할 수 없다는 의미입니다","description":"이 표현은 미래에 어떤 일이 일어날지 확실하지 않을 때 사용합니다. 가능성이나 기회를 열어두고 긍정적 혹은 조심스러운 태도를 나타낼 때 자주 쓰이며, 일상 대화에서 널리 쓰이는 구어체 표현입니다.","examples":[{"en":"You never know what might happen tomorrow.","ko":"내일 무슨 일이 일어날지 몰라."},{"en":"I’m not sure if I’ll get the job, but you never know.","ko":"그 직장을 얻을 수 있을지 확신은 없지만, 모르는 거지."},{"en":"She decided to give it a try — you never know until you try.","ko":"그녀는 한번 해보기로 했어 — 시도해 보기 전에는 모르는 거니까."},{"en":"You never know, maybe it will rain later.","ko":"모르지, 나중에 비가 올지도 몰라."},{"en":"Don’t be too sure about the outcome. You never know.","ko":"결과를 너무 확신하지 마. 무슨 일이 생길지 몰라."}],"related":[{"slug":"anything-can-happen","title":"Anything can happen"},{"slug":"it’s-unpredictable","title":"It’s unpredictable"},{"slug":"who-knows?","title":"Who knows?"},{"slug":"there’s-a-chance","title":"There’s a chance"},{"slug":"expect-the-unexpected","title":"Expect the unexpected"}],"date":"2025-06-01T16:30"}');
-;// ./src/components/Quiz/data.ts
+;// ./src/components/data.ts
 const quizData=[content_namespaceObject,binge_watch_content_namespaceObject,turn_down_content_namespaceObject,silver_lining_content_namespaceObject,tough_it_out_content_namespaceObject,spill_the_beans_content_namespaceObject,when_one_door_closes_another_opens_content_namespaceObject,take_responsibility_content_namespaceObject,hit_the_sack_content_namespaceObject,make_an_effort_content_namespaceObject,on_average_content_namespaceObject,pull_someone_s_leg_content_namespaceObject,all_that_glitters_is_not_gold_content_namespaceObject,kick_the_bucket_content_namespaceObject,throw_shade_content_namespaceObject,carry_on_content_namespaceObject,common_as_dirt_content_namespaceObject,happen_to_meet_content_namespaceObject,meet_by_chance_content_namespaceObject,don_t_judge_a_book_by_its_cover_content_namespaceObject,nice_to_meet_you_content_namespaceObject,spill_the_tea_content_namespaceObject,run_of_the_mill_content_namespaceObject,look_on_the_bright_side_content_namespaceObject,fade_away_content_namespaceObject,ghosting_content_namespaceObject,pass_away_content_namespaceObject,as_a_rule_content_namespaceObject,appearances_can_be_deceiving_content_namespaceObject,break_a_leg_content_namespaceObject,figure_out_content_namespaceObject,good_luck_content_namespaceObject,take_off_content_namespaceObject,run_into_content_namespaceObject,bring_up_content_namespaceObject,it_is_what_it_is_content_namespaceObject,make_a_difference_content_namespaceObject,come_across_content_namespaceObject,beauty_is_only_skin_deep_content_namespaceObject,die_down_content_namespaceObject,hit_the_nail_on_the_head_content_namespaceObject,bite_the_dust_content_namespaceObject,better_late_than_never_content_namespaceObject,ghost_someone_content_namespaceObject,get_over_content_namespaceObject,cross_paths_content_namespaceObject,grit_ones_teeth_content_namespaceObject,a_dime_a_dozen_content_namespaceObject,break_the_ice_content_namespaceObject,you_never_know_content_namespaceObject];
-;// ./src/components/Quiz/index.tsx
+
+/***/ }),
+
+/***/ 4417:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  assets: () => (/* binding */ assets),
+  contentTitle: () => (/* binding */ contentTitle),
+  "default": () => (/* binding */ MDXContent),
+  frontMatter: () => (/* binding */ frontMatter),
+  metadata: () => (/* reexport */ site_docs_definition_match_mdx_e64_namespaceObject),
+  toc: () => (/* binding */ toc)
+});
+
+;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-definition-match-mdx-e64.json
+const site_docs_definition_match_mdx_e64_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"definition-match","title":"Match Definition","description":"","source":"@site/docs/definition-match.mdx","sourceDirName":".","slug":"/definition-match","permalink":"/play/definition-match","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"playSidebar","next":{"title":"Similar Expression","permalink":"/play/similar-expression"}}');
+// EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(3420);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
+var lib = __webpack_require__(5404);
+// EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
+var react = __webpack_require__(6672);
+// EXTERNAL MODULE: ./src/components/data.ts + 50 modules
+var data = __webpack_require__(505);
+;// ./src/components/DefinitionMatch/index.tsx
 const shuffleArray=array=>{const shuffled=[...array];for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}return shuffled;};const NUM_QUESTIONS=10;// Maximum number of questions to generate
 const MAX_OPTIONS=4;// Maximum number of options per question
-function App(){const[currentQuestionIndex,setCurrentQuestionIndex]=(0,react.useState)(0);const[score,setScore]=(0,react.useState)(0);const[showResults,setShowResults]=(0,react.useState)(false);const[quizQuestions,setQuizQuestions]=(0,react.useState)([]);const[selectedAnswer,setSelectedAnswer]=(0,react.useState)(null);const[isAnswerCorrect,setIsAnswerCorrect]=(0,react.useState)(null);const generateQuizQuestions=(0,react.useCallback)(()=>{const questions=[];const availableIdioms=[...quizData];// Copy to avoid modifying original
+function App(){const[currentQuestionIndex,setCurrentQuestionIndex]=(0,react.useState)(0);const[score,setScore]=(0,react.useState)(0);const[showResults,setShowResults]=(0,react.useState)(false);const[quizQuestions,setQuizQuestions]=(0,react.useState)([]);const[selectedAnswer,setSelectedAnswer]=(0,react.useState)(null);const[isAnswerCorrect,setIsAnswerCorrect]=(0,react.useState)(null);const generateQuizQuestions=(0,react.useCallback)(()=>{const questions=[];const availableIdioms=[...data/* quizData */.a];// Copy to avoid modifying original
 // Shuffle the available idioms to randomize question order
 const shuffledIdioms=shuffleArray(availableIdioms);// Determine the number of questions to generate (up to 10 or max available unique questions)
 const numQuestionsToGenerate=Math.min(NUM_QUESTIONS,shuffledIdioms.length);for(let i=0;i<numQuestionsToGenerate;i++){const currentIdiom=shuffledIdioms[i];const correctTitle=currentIdiom.title;const relatedSlugs=new Set(currentIdiom.related.map(r=>r.slug));// Collect potential incorrect options, excluding the correct one and its related terms
-const incorrectOptionsPool=quizData.filter(item=>item.slug!==currentIdiom.slug&&!relatedSlugs.has(item.slug)).map(item=>item.title);// Shuffle the incorrect options pool
+const incorrectOptionsPool=data/* quizData */.a.filter(item=>item.slug!==currentIdiom.slug&&!relatedSlugs.has(item.slug)).map(item=>item.title);// Shuffle the incorrect options pool
 const shuffledIncorrectOptions=shuffleArray(incorrectOptionsPool);// Select 3 unique incorrect options
 const options=[correctTitle];let count=0;for(const option of shuffledIncorrectOptions){if(count<3&&!options.includes(option)){options.push(option);count++;}if(count===3)break;}// IMPORTANT: To consistently have 4 choices, you need at least 4 distinct idioms in your quizData
 // that are not related to each other. With only 2 idioms provided, it's not possible to
 // always generate 4 unique and unrelated options. The code will try to get 4, but if
 // data is insufficient, it will provide fewer options.
 if(options.length<MAX_OPTIONS){// Fallback: If not enough unique non-related options, pick from all others (less ideal for quiz quality)
-const fallbackOptionsPool=quizData.filter(item=>item.slug!==currentIdiom.slug).map(item=>item.title);const shuffledFallbackOptions=shuffleArray(fallbackOptionsPool);for(const option of shuffledFallbackOptions){if(options.length<MAX_OPTIONS&&!options.includes(option)){options.push(option);}if(options.length===MAX_OPTIONS)break;}}questions.push({question:currentIdiom.description,options:shuffleArray(options),// Shuffle options for each question
+const fallbackOptionsPool=data/* quizData */.a.filter(item=>item.slug!==currentIdiom.slug).map(item=>item.title);const shuffledFallbackOptions=shuffleArray(fallbackOptionsPool);for(const option of shuffledFallbackOptions){if(options.length<MAX_OPTIONS&&!options.includes(option)){options.push(option);}if(options.length===MAX_OPTIONS)break;}}questions.push({question:currentIdiom.description,options:shuffleArray(options),// Shuffle options for each question
 correctAnswer:correctTitle});}setQuizQuestions(questions);},[]);(0,react.useEffect)(()=>{generateQuizQuestions();},[generateQuizQuestions]);// Handle answer selection
 const handleAnswerClick=selectedOption=>{if(selectedAnswer!==null)return;// Prevent multiple selections
 setSelectedAnswer(selectedOption);const currentQuestion=quizQuestions[currentQuestionIndex];const isCorrect=selectedOption===currentQuestion.correctAnswer;setIsAnswerCorrect(isCorrect);if(isCorrect){setScore(score+1);}};// Move to the next question
 const handleNextQuestion=()=>{setSelectedAnswer(null);setIsAnswerCorrect(null);if(currentQuestionIndex<quizQuestions.length-1){setCurrentQuestionIndex(currentQuestionIndex+1);}else{setShowResults(true);}};// Restart the quiz
 const restartQuiz=()=>{setCurrentQuestionIndex(0);setScore(0);setShowResults(false);setSelectedAnswer(null);setIsAnswerCorrect(null);generateQuizQuestions();// Regenerate questions for a new round
-};if(quizQuestions.length===0){return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"flex items-center justify-center min-h-screen bg-gray-100 p-4",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-white p-8 rounded-lg shadow-lg text-center",children:/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-xl font-semibold text-gray-700",children:"Loading quiz..."})})});}const currentQuestion=quizQuestions[currentQuestionIndex];return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"sm:p-4 sm:bg-gradient-to-br sm:from-blue-100 sm:to-purple-200 sm:shadow-2xl flex items-center justify-center font-inter",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-white p-4 sm:p-8 rounded-2xl shadow-xl w-full max-w-2xl border border-gray-200",children:showResults?/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"text-center",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("h2",{className:"text-2xl font-semibold text-gray-700 mb-4",children:"Quiz Complete!"}),/*#__PURE__*/(0,jsx_runtime.jsxs)("p",{className:"text-xl text-gray-600 mb-6",children:["You scored ",/*#__PURE__*/(0,jsx_runtime.jsx)("span",{className:"font-bold text-blue-600",children:score})," out of",' ',/*#__PURE__*/(0,jsx_runtime.jsx)("span",{className:"font-bold text-purple-600",children:quizQuestions.length})," questions."]}),/*#__PURE__*/(0,jsx_runtime.jsx)("button",{onClick:restartQuiz,className:"bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 shadow-md",children:"Restart Quiz"})]}):/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{children:[/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"text-gray-600 text-lg mb-4",children:["Question ",currentQuestionIndex+1," of ",quizQuestions.length]}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-blue-50 p-6 rounded-xl mb-6 shadow-sm border border-blue-200",children:/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-xl font-medium text-gray-800 leading-relaxed",children:currentQuestion.question})}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6",children:currentQuestion.options.map((option,index)=>{let buttonClasses='bg-gray-100 hover:bg-gray-200 text-gray-800';if(selectedAnswer!==null){if(option===currentQuestion.correctAnswer){buttonClasses='bg-green-200 text-green-800 border-green-400';// Correct answer
+};if(quizQuestions.length===0){return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"flex items-center justify-center min-h-screen bg-gray-100 p-4",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-white p-8 rounded-lg shadow-lg text-center",children:/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-xl font-semibold text-gray-700",children:"Loading quiz..."})})});}const currentQuestion=quizQuestions[currentQuestionIndex];return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"sm:p-4 sm:bg-gradient-to-br sm:from-blue-100 sm:to-purple-200 sm:shadow-2xl flex items-center justify-center font-inter",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-white p-4 sm:p-8 rounded-2xl shadow-xl w-full max-w-2xl border border-gray-200",children:showResults?/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"text-center",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("h2",{className:"text-2xl font-semibold !text-gray-700 mb-4",children:"Quiz Complete!"}),/*#__PURE__*/(0,jsx_runtime.jsxs)("p",{className:"text-xl text-gray-600 mb-6",children:["You scored ",/*#__PURE__*/(0,jsx_runtime.jsx)("span",{className:"font-bold text-blue-600",children:score})," out of",' ',/*#__PURE__*/(0,jsx_runtime.jsx)("span",{className:"font-bold text-purple-600",children:quizQuestions.length})," questions."]}),/*#__PURE__*/(0,jsx_runtime.jsx)("button",{onClick:restartQuiz,className:"bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition duration-300 ease-in-out transform hover:scale-105 shadow-md",children:"Restart Quiz"})]}):/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{children:[/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"text-gray-600 text-lg mb-4",children:["Question ",currentQuestionIndex+1," of ",quizQuestions.length]}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-blue-50 p-6 rounded-xl mb-6 shadow-sm border border-blue-200",children:/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-xl font-medium text-gray-800 leading-relaxed",children:currentQuestion.question})}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6",children:currentQuestion.options.map((option,index)=>{let buttonClasses='bg-gray-100 hover:bg-gray-200 text-gray-800';if(selectedAnswer!==null){if(option===currentQuestion.correctAnswer){buttonClasses='bg-green-200 text-green-800 border-green-400';// Correct answer
 }else if(option===selectedAnswer){buttonClasses='bg-red-200 text-red-800 border-red-400';// Incorrectly selected
 }else{buttonClasses='bg-gray-100 text-gray-500 opacity-70 cursor-not-allowed';// Unselected
 }}return/*#__PURE__*/(0,jsx_runtime.jsx)("button",{onClick:()=>handleAnswerClick(option),disabled:selectedAnswer!==null// Disable buttons after selection
 ,className:`w-full py-3 px-4 rounded-xl text-lg font-semibold text-left transition duration-200 ease-in-out border-2 ${buttonClasses} transform hover:scale-[1.02] active:scale-95 shadow-sm`,children:option},index);})}),selectedAnswer&&/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:`mt-4 p-4 rounded-xl text-center ${isAnswerCorrect?'bg-green-100 text-green-700':'bg-red-100 text-red-700'} font-medium`,children:isAnswerCorrect?'Correct!':'Incorrect. Try again!'}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"mt-8 text-center",children:/*#__PURE__*/(0,jsx_runtime.jsx)("button",{onClick:handleNextQuestion,disabled:selectedAnswer===null// Disable next button until an answer is selected
 ,className:`py-3 px-8 rounded-xl font-bold text-lg transition duration-300 ease-in-out shadow-md
-                                  ${selectedAnswer!==null?'bg-purple-600 hover:bg-purple-700 text-white transform hover:scale-105':'bg-gray-300 text-gray-600 cursor-not-allowed'}`,children:currentQuestionIndex<quizQuestions.length-1?'Next Question':'Show Results'})})]})})});}/* harmony default export */ const Quiz = (App);
-;// ./docs/quiz.mdx
+                                  ${selectedAnswer!==null?'bg-purple-600 hover:bg-purple-700 text-white transform hover:scale-105':'bg-gray-300 text-gray-600 cursor-not-allowed'}`,children:currentQuestionIndex<quizQuestions.length-1?'Next Question':'Show Results'})})]})})});}/* harmony default export */ const DefinitionMatch = (App);
+;// ./docs/definition-match.mdx
 
 
 const frontMatter = {
-	sidebar_position: 2
+	sidebar_position: 1
 };
-const contentTitle = 'English Expressions Quiz';
+const contentTitle = 'Match Definition';
 
 const assets = {
 
@@ -275,10 +194,10 @@ function _createMdxContent(props) {
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.header, {
       children: (0,jsx_runtime.jsx)(_components.h1, {
-        id: "english-expressions-quiz",
-        children: "English Expressions Quiz"
+        id: "match-definition",
+        children: "Match Definition"
       })
-    }), "\n", (0,jsx_runtime.jsx)(Quiz, {})]
+    }), "\n", (0,jsx_runtime.jsx)(DefinitionMatch, {})]
   });
 }
 function MDXContent(props = {}) {
@@ -294,6 +213,101 @@ function MDXContent(props = {}) {
   }) : _createMdxContent(props);
 }
 
+
+
+/***/ }),
+
+/***/ 5404:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   R: () => (/* binding */ useMDXComponents),
+/* harmony export */   x: () => (/* binding */ MDXProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6672);
+/**
+ * @import {MDXComponents} from 'mdx/types.js'
+ * @import {Component, ReactElement, ReactNode} from 'react'
+ */
+
+/**
+ * @callback MergeComponents
+ *   Custom merge function.
+ * @param {Readonly<MDXComponents>} currentComponents
+ *   Current components from the context.
+ * @returns {MDXComponents}
+ *   Additional components.
+ *
+ * @typedef Props
+ *   Configuration for `MDXProvider`.
+ * @property {ReactNode | null | undefined} [children]
+ *   Children (optional).
+ * @property {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @property {boolean | null | undefined} [disableParentContext=false]
+ *   Turn off outer component context (default: `false`).
+ */
+
+
+
+/** @type {Readonly<MDXComponents>} */
+const emptyComponents = {}
+
+const MDXContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(emptyComponents)
+
+/**
+ * Get current components from the MDX Context.
+ *
+ * @param {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @returns {MDXComponents}
+ *   Current components.
+ */
+function useMDXComponents(components) {
+  const contextComponents = react__WEBPACK_IMPORTED_MODULE_0__.useContext(MDXContext)
+
+  // Memoize to avoid unnecessary top-level context changes
+  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(
+    function () {
+      // Custom merge via a function prop
+      if (typeof components === 'function') {
+        return components(contextComponents)
+      }
+
+      return {...contextComponents, ...components}
+    },
+    [contextComponents, components]
+  )
+}
+
+/**
+ * Provider for MDX context.
+ *
+ * @param {Readonly<Props>} properties
+ *   Properties.
+ * @returns {ReactElement}
+ *   Element.
+ * @satisfies {Component}
+ */
+function MDXProvider(properties) {
+  /** @type {Readonly<MDXComponents>} */
+  let allComponents
+
+  if (properties.disableParentContext) {
+    allComponents =
+      typeof properties.components === 'function'
+        ? properties.components(emptyComponents)
+        : properties.components || emptyComponents
+  } else {
+    allComponents = useMDXComponents(properties.components)
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement(
+    MDXContext.Provider,
+    {value: allComponents},
+    properties.children
+  )
+}
 
 
 /***/ })
