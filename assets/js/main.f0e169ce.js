@@ -3402,7 +3402,7 @@ __webpack_require__.r(__webpack_exports__);
       "style": "dark",
       "links": [
         {
-          "html": "\n            <ins class=\"adsbygoogle\"\n                 style=\"display:block\"\n                 data-ad-client=\"ca-pub-8550271370696297\"\n                 data-ad-slot=\"5147368905\"\n                 data-ad-format=\"auto\"\n                 data-full-width-responsive=\"true\">\n            </ins>\n            <script>\n              (adsbygoogle = window.adsbygoogle || []).push({});\n            </script>\n          "
+          "html": "\n            <ins class=\"adsbygoogle\"\n                 style=\"display:inline-block;width:728px;height:90px\"\n                 data-ad-client=\"ca-pub-8550271370696297\"\n                 data-ad-slot=\"5147368905\">\n            </ins>\n            <script>\n              (adsbygoogle = window.adsbygoogle || []).push({});\n            </script>\n          "
         }
       ],
       "copyright": "Copyright © 2025 English Expressions. Built with Docusaurus."
