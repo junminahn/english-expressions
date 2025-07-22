@@ -3400,8 +3400,12 @@ __webpack_require__.r(__webpack_exports__);
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2025 English Expressions. Built with Docusaurus.",
-      "links": []
+      "links": [
+        {
+          "html": "\n            <ins class=\"adsbygoogle\"\n                 style=\"display:block\"\n                 data-ad-client=\"ca-pub-8550271370696297\"\n                 data-ad-slot=\"5147368905\"\n                 data-ad-format=\"auto\"\n                 data-full-width-responsive=\"true\">\n            </ins>\n            <script>\n              (adsbygoogle = window.adsbygoogle || []).push({});\n            </script>\n          "
+        }
+      ],
+      "copyright": "Copyright © 2025 English Expressions. Built with Docusaurus."
     },
     "prism": {
       "theme": {
