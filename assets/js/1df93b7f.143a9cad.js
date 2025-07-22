@@ -16,8 +16,8 @@ __webpack_require__.d(__webpack_exports__, {
 var Link = __webpack_require__(58414);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+core@3.8.1_@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0__acorn@8.15_748ba51041b8ac3576a761f0834a8595/node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
 var useDocusaurusContext = __webpack_require__(44658);
-// EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+theme-classic@3.8.1_@types+react@19.1.8_acorn@8.15.0_react-dom@19.1.0_react_58a32f521a68200d0a0528fd0de718ff/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 74 modules
-var Layout = __webpack_require__(93267);
+// EXTERNAL MODULE: ./src/theme/Layout/index.tsx + 75 modules
+var Layout = __webpack_require__(39571);
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(23420);
 ;// ./src/components/HomepageFeatures/index.tsx

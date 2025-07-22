@@ -2958,8 +2958,8 @@ var useDocusaurusContext = __webpack_require__(44658);
 var useAlgoliaThemeConfig = __webpack_require__(98582);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+theme-search-algolia@3.8.1_@algolia+client-search@5.29.0_@mdx-js+react@3.1._91375e05392e36a313f84d8fd41cf61a/node_modules/@docusaurus/theme-search-algolia/lib/client/useSearchResultUrlProcessor.js
 var useSearchResultUrlProcessor = __webpack_require__(15614);
-// EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+theme-classic@3.8.1_@types+react@19.1.8_acorn@8.15.0_react-dom@19.1.0_react_58a32f521a68200d0a0528fd0de718ff/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 74 modules
-var Layout = __webpack_require__(93267);
+// EXTERNAL MODULE: ./src/theme/Layout/index.tsx + 75 modules
+var Layout = __webpack_require__(39571);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+theme-classic@3.8.1_@types+react@19.1.8_acorn@8.15.0_react-dom@19.1.0_react_58a32f521a68200d0a0528fd0de718ff/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
 var Heading = __webpack_require__(29687);
 ;// ./node_modules/.pnpm/@docusaurus+theme-search-algolia@3.8.1_@algolia+client-search@5.29.0_@mdx-js+react@3.1._91375e05392e36a313f84d8fd41cf61a/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchPage/styles.module.css
