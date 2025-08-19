@@ -3682,6 +3682,13 @@ __webpack_require__.r(__webpack_exports__);
     {
       "tagName": "meta",
       "attributes": {
+        "name": "naver-site-verification",
+        "content": "55a56039d3f8789e7ec67e2ab114bf11e9471400"
+      }
+    },
+    {
+      "tagName": "meta",
+      "attributes": {
         "name": "robots",
         "content": "index, follow"
       }
