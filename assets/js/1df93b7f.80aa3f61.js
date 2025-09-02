@@ -1,0 +1,30 @@
+"use strict";
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[34583],{
+
+/***/ 5822:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home)
+});
+
+// EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+core@3.8.1_@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0__acorn@8.15_748ba51041b8ac3576a761f0834a8595/node_modules/@docusaurus/core/lib/client/exports/Link.js
+var Link = __webpack_require__(58414);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@docusaurus+core@3.8.1_@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0__acorn@8.15_748ba51041b8ac3576a761f0834a8595/node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
+var useDocusaurusContext = __webpack_require__(44658);
+// EXTERNAL MODULE: ./src/theme/Layout/index.tsx + 75 modules
+var Layout = __webpack_require__(39571);
+// EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(23420);
+;// ./src/components/HomepageFeatures/index.tsx
+const FeatureList=[{id:'idioms',title:'자주 쓰이는 관용구',Svg:()=>/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{className:"w-24 h-24 text-blue-500 mx-auto",fill:"none",stroke:"currentColor",strokeWidth:"1.5",viewBox:"0 0 24 24",children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M7 8h10M7 12h6m-6 4h10M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"})}),description:/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)("em",{children:"\"break the ice\""}),", ",/*#__PURE__*/(0,jsx_runtime.jsx)("em",{children:"\"hit the nail on the head\""})," \uB4F1 \uC790\uC8FC \uC0AC\uC6A9\uB418\uB294 \uC601\uC5B4 \uAD00\uC6A9\uAD6C\uB97C \uC790\uC5F0\uC2A4\uB7FD\uAC8C \uC775\uD600\uBCF4\uC138\uC694."]})},{id:'useful-phrases',title:'실생활 영어 표현',Svg:()=>/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{className:"w-24 h-24 text-green-500 mx-auto",fill:"none",stroke:"currentColor",strokeWidth:"1.5",viewBox:"0 0 24 24",children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"})}),description:/*#__PURE__*/(0,jsx_runtime.jsx)(jsx_runtime.Fragment,{children:"\uC77C\uC0C1, \uC5EC\uD589, \uC5C5\uBB34 \uB4F1 \uB2E4\uC591\uD55C \uC0C1\uD669\uC5D0\uC11C \uC720\uC6A9\uD558\uAC8C \uC4F8 \uC218 \uC788\uB294 \uC601\uC5B4 \uD45C\uD604\uB4E4\uC744 \uBC30\uC6CC\uBCF4\uC138\uC694."})},{id:'practice-with-examples',title:'예문과 함께 연습',Svg:()=>/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{className:"w-24 h-24 text-purple-500 mx-auto",fill:"none",stroke:"currentColor",strokeWidth:"1.5",viewBox:"0 0 24 24",children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M4 4h16v2H4V4zm0 6h16v2H4v-2zm0 6h10v2H4v-2z"})}),description:/*#__PURE__*/(0,jsx_runtime.jsx)(jsx_runtime.Fragment,{children:"\uB2E4\uC591\uD55C \uC608\uBB38\uACFC \uC9E7\uC740 \uC5F0\uC2B5 \uBB38\uC81C\uB97C \uD1B5\uD574 \uD45C\uD604\uC744 \uD6A8\uACFC\uC801\uC73C\uB85C \uC775\uD788\uACE0 \uBC14\uB85C \uD65C\uC6A9\uD574\uBCF4\uC138\uC694."})}];function Feature({title,Svg,description}){return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"w-full md:w-1/2 lg:w-1/3 px-4 mb-12",children:/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"text-center",children:[/*#__PURE__*/(0,jsx_runtime.jsx)(Svg,{}),/*#__PURE__*/(0,jsx_runtime.jsx)("h3",{className:"text-xl font-bold !text-gray-900 mt-4 mb-2",children:title}),/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-gray-600 leading-relaxed",children:description})]})});}function HomepageFeatures(){return/*#__PURE__*/(0,jsx_runtime.jsx)("section",{className:"py-20 bg-white",children:/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"container mx-auto px-4",children:[/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"text-center mb-16",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("h1",{className:"text-4xl font-extrabold !text-gray-900 mb-4",children:"\uC601\uC5B4 \uD45C\uD604 \uC644\uC804 \uC815\uBCF5"}),/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-lg text-gray-700 max-w-2xl mx-auto",children:"\uC790\uC8FC \uC4F0\uC774\uB294 \uC601\uC5B4 \uAD00\uC6A9\uAD6C\uC640 \uD45C\uD604\uC744 \uC608\uBB38\uACFC \uD568\uAED8 \uC7AC\uBBF8\uC788\uACE0 \uD6A8\uACFC\uC801\uC73C\uB85C \uBC30\uC6CC\uBCF4\uC138\uC694!"})]}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"flex flex-wrap -mx-4",children:FeatureList.map((props,idx)=>/*#__PURE__*/(0,jsx_runtime.jsx)(Feature,{...props},idx))})]})});}
+;// ./src/pages/index.tsx
+function HomepageHeader(){const{siteConfig}=(0,useDocusaurusContext/* default */.A)();return/*#__PURE__*/(0,jsx_runtime.jsx)("header",{className:"bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 py-20 text-center",children:/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"container mx-auto px-4",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("h1",{className:"!text-5xl !text-gray-900 font-extrabold mb-4",children:siteConfig.title}),/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:"text-lg md:text-xl text-gray-600 mb-8",children:siteConfig.tagline}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{children:/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.A,{className:"inline-block px-6 py-3 bg-blue-800 !text-white text-base font-medium rounded-lg shadow hover:bg-blue-900 transition",to:"/blog",children:"\uBE14\uB85C\uADF8 \uBC14\uB85C\uAC00\uAE30"})})]})});}function Home(){const{siteConfig}=(0,useDocusaurusContext/* default */.A)();return/*#__PURE__*/(0,jsx_runtime.jsxs)(Layout/* default */.A,{title:`Hello from ${siteConfig.title}`,description:"Description will go into a meta tag in <head />",children:[/*#__PURE__*/(0,jsx_runtime.jsx)(HomepageHeader,{}),/*#__PURE__*/(0,jsx_runtime.jsx)("main",{children:/*#__PURE__*/(0,jsx_runtime.jsx)(HomepageFeatures,{})})]});}
+
+/***/ })
+
+}]);

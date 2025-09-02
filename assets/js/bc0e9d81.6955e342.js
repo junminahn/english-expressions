@@ -1,0 +1,271 @@
+"use strict";
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[77893],{
+
+/***/ 65404:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   R: () => (/* binding */ useMDXComponents),
+/* harmony export */   x: () => (/* binding */ MDXProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36672);
+/**
+ * @import {MDXComponents} from 'mdx/types.js'
+ * @import {Component, ReactElement, ReactNode} from 'react'
+ */
+
+/**
+ * @callback MergeComponents
+ *   Custom merge function.
+ * @param {Readonly<MDXComponents>} currentComponents
+ *   Current components from the context.
+ * @returns {MDXComponents}
+ *   Additional components.
+ *
+ * @typedef Props
+ *   Configuration for `MDXProvider`.
+ * @property {ReactNode | null | undefined} [children]
+ *   Children (optional).
+ * @property {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @property {boolean | null | undefined} [disableParentContext=false]
+ *   Turn off outer component context (default: `false`).
+ */
+
+
+
+/** @type {Readonly<MDXComponents>} */
+const emptyComponents = {}
+
+const MDXContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(emptyComponents)
+
+/**
+ * Get current components from the MDX Context.
+ *
+ * @param {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @returns {MDXComponents}
+ *   Current components.
+ */
+function useMDXComponents(components) {
+  const contextComponents = react__WEBPACK_IMPORTED_MODULE_0__.useContext(MDXContext)
+
+  // Memoize to avoid unnecessary top-level context changes
+  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(
+    function () {
+      // Custom merge via a function prop
+      if (typeof components === 'function') {
+        return components(contextComponents)
+      }
+
+      return {...contextComponents, ...components}
+    },
+    [contextComponents, components]
+  )
+}
+
+/**
+ * Provider for MDX context.
+ *
+ * @param {Readonly<Props>} properties
+ *   Properties.
+ * @returns {ReactElement}
+ *   Element.
+ * @satisfies {Component}
+ */
+function MDXProvider(properties) {
+  /** @type {Readonly<MDXComponents>} */
+  let allComponents
+
+  if (properties.disableParentContext) {
+    allComponents =
+      typeof properties.components === 'function'
+        ? properties.components(emptyComponents)
+        : properties.components || emptyComponents
+  } else {
+    allComponents = useMDXComponents(properties.components)
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement(
+    MDXContext.Provider,
+    {value: allComponents},
+    properties.children
+  )
+}
+
+
+/***/ }),
+
+/***/ 81193:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/blog/misfortunes-never-come-singly","source":"@site/blog/misfortunes-never-come-singly/index.md","title":"Misfortunes Never Come Singly","description":"의미","date":"2025-08-19T00:01:00.000Z","tags":[{"inline":true,"label":"관용구","permalink":"/blog/tags/관용구"},{"inline":true,"label":"문장","permalink":"/blog/tags/문장"}],"readingTime":1.35,"hasTruncateMarker":true,"authors":[],"frontMatter":{"slug":"misfortunes-never-come-singly","title":"Misfortunes Never Come Singly","authors":[],"date":"2025-08-19T00:01","tags":["관용구","문장"]},"unlisted":false,"prevItem":{"title":"Bad Things Come in Threes","permalink":"/blog/bad-things-come-in-threes"},"nextItem":{"title":"A Perfect Storm","permalink":"/blog/a-perfect-storm"}}');
+
+/***/ }),
+
+/***/ 99526:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_misfortunes_never_come_singly_index_md_bc0_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   toc: () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_blog_default_site_blog_misfortunes_never_come_singly_index_md_bc0_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(81193);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(23420);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(65404);
+
+
+const frontMatter = {
+	slug: 'misfortunes-never-come-singly',
+	title: 'Misfortunes Never Come Singly',
+	authors: [],
+	date: '2025-08-19T00:01',
+	tags: [
+		'관용구',
+		'문장'
+	]
+};
+const contentTitle = undefined;
+
+const assets = {
+"authorsImageUrls": [],
+};
+
+
+
+const toc = [{
+  "value": "의미",
+  "id": "의미",
+  "level": 3
+}, {
+  "value": "설명",
+  "id": "설명",
+  "level": 3
+}, {
+  "value": "예문",
+  "id": "예문",
+  "level": 3
+}, {
+  "value": "유사한 영어 표현",
+  "id": "유사한-영어-표현",
+  "level": 3
+}];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    admonition: "admonition",
+    em: "em",
+    h3: "h3",
+    li: "li",
+    p: "p",
+    strong: "strong",
+    ul: "ul",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "의미",
+      children: "의미"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("code", {
+        children: "Misfortunes Never Come Singly"
+      }), "는 불행은 혼자 오지 않고 겹쳐서 온다는 의미입니다."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "설명",
+      children: "설명"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "이 표현은 한 가지 불운한 일이 발생했을 때, 그 뒤를 이어 다른 좋지 않은 일들이 연달아 일어나는 경향이 있음을 나타냅니다. 즉, 불행은 단독으로 찾아오는 것이 아니라 다른 불행을 동반한다는 뜻입니다. 종종 어려운 상황에서 현재의 불운이 더 큰 불운으로 이어질까 하는 염려나, 이미 겹친 불행에 대한 체념을 표현할 때 사용됩니다."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "예문",
+      children: "예문"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
+      title: "Example 1",
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "First I lost my job, then my car broke down. Misfortunes never come singly, do they?"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(먼저 일자리를 잃었고, 그다음에는 차가 고장 났어요. 불행은 정말 혼자 오지 않는 것 같아요, 그렇죠?)"]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
+      title: "Example 2",
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "After her business failed, she also faced health issues. It seems misfortunes never come singly for her."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(그녀의 사업이 망한 후, 건강 문제까지 겪게 되었어요. 그녀에게는 불행이 겹쳐서 오는 것 같아요.)"]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
+      title: "Example 3",
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "We thought things couldn't get worse, but then the main server crashed. Misfortunes never come singly, it seems."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(상황이 더 나빠질 수 없다고 생각했지만, 그때 메인 서버가 다운되었어요. 불행은 정말 겹쳐서 오는군요.)"]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
+      title: "Example 4",
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Don't be surprised when things keep going wrong. Misfortunes never come singly."
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\n(일이 계속 잘못되어도 놀라지 마세요. 불행은 혼자 오지 않습니다.)"]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "유사한-영어-표현",
+      children: "유사한 영어 표현"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "/blog/when-it-rains-it-pours/",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+            children: "When It Rains, It Pours"
+          })
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(좋은 일이든 나쁜 일이든 한 번에 몰아서 일어난다는 뜻으로, 주로 불운이 겹칠 때 사용됩니다.)"
+        })]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "/blog/it-never-rains-but-it-pours/",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+            children: "It Never Rains But It Pours"
+          })
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(위와 같은 의미로, 특히 불행이 한 번에 닥칠 때 사용되는 표현입니다.)"
+        })]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "/blog/bad-things-come-in-threes/",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+            children: "Bad Things Come in Threes"
+          })
+        }), " ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.em, {
+          children: "(불운한 일은 세 가지씩 겹쳐서 일어난다는 미신적 표현입니다.)"
+        })]
+      }), "\n"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(MDXLayout, {
+    ...props,
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+
+
+
+/***/ })
+
+}]);
