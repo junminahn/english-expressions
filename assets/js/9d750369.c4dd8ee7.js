@@ -1,0 +1,11 @@
+"use strict";
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[47876],{
+
+/***/ 65155:
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"관용구","permalink":"/blog/tags/관용구","allTagsPath":"/blog/tags","count":141,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/관용구/page/12","page":12,"postsPerPage":10,"totalPages":15,"totalCount":141,"previousPage":"/blog/tags/관용구/page/11","nextPage":"/blog/tags/관용구/page/13","blogDescription":"Blog","blogTitle":"Blog"}}');
+
+/***/ })
+
+}]);
